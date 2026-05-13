@@ -509,7 +509,7 @@ The authors introduce BiPETE, a transformer encoder that combines rotary and sin
 <details>
 <summary><strong>HPformer: Low-Parameter Transformer With Temporal Dependency Hierarchical Propagation for Health Informatics</strong> (2025-11, IEEE Transactions on Pattern Analysis and Machine Intelligence). <a href="https://pubmed.ncbi.nlm.nih.gov/40729723/">PubMed</a></summary>
 
-HPformer introduces a low-parameter transformer architecture that divides sequences into logarithmically many chunks, hierarchically propagates temporal dependencies, and shares key/value matrices across layers to reduce self-attention complexity from O(LÂ¬â¤) to O(L log L). Extensive evaluations on publicly available health-informatics benchmarks and the LRA benchmark demonstrate that HPformer achieves competitive predictive performance with markedly lower memory usage and computational cost compared to standard...
+HPformer introduces a low-parameter transformer architecture that divides sequences into logarithmically many chunks, hierarchically propagates temporal dependencies, and shares key/value matrices across layers to reduce self-attention complexity from O(L¬≤) to O(L log L). Extensive evaluations on publicly available health-informatics benchmarks and the LRA benchmark demonstrate that HPformer achieves competitive predictive performance with markedly lower memory usage and computational cost compared to standard...
 
 </details>
 <details>
@@ -989,7 +989,7 @@ EHRWorld introduces a patient-centric medical world model that leverages a causa
 <details>
 <summary><strong>Efficient Variance-reduced Estimation from Generative EHR Models: The SCOPE and REACH Estimators</strong> (2026-02, arXiv). <a href="https://arxiv.org/abs/2602.03730">arXiv</a></summary>
 
-The authors introduce two unbiased, variance-reduced estimators-SCOPE and REACH-that directly exploit the next-token probability distributions of generative EHR models, eliminating the need for expensive MonteÂ¬â Carlo trajectory sampling. They mathematically prove unbiasedness and show REACH consistently lowers estimator variance, achieving up to a ten-fold inference speed-up on MIMIC-IV hospital-mortality predictions with comparable accuracy and calibration.
+The authors introduce two unbiased, variance-reduced estimators-SCOPE and REACH-that directly exploit the next-token probability distributions of generative EHR models, eliminating the need for expensive Monte¬†Carlo trajectory sampling. They mathematically prove unbiasedness and show REACH consistently lowers estimator variance, achieving up to a ten-fold inference speed-up on MIMIC-IV hospital-mortality predictions with comparable accuracy and calibration.
 
 </details>
 <details>
@@ -1535,7 +1535,7 @@ This paper introduces a generative framework that models clinical time series as
 <details>
 <summary><strong>Bridging Graph and State-Space Modeling for Intensive Care Unit Length of Stay Prediction</strong> (2025-08, arXiv). <a href="https://arxiv.org/abs/2508.17554">arXiv</a></summary>
 
-The authors propose SÂ¬â¤G-Net, a hybrid architecture that merges Mamba state-space sequence modeling with a multi-view GraphGPS backbone to predict ICU length of stay from heterogeneous EHR data. Experiments on the MIMIC-IV dataset show that SÂ¬â¤G-Net surpasses conventional sequence models, classic GNNs, and prior hybrid approaches, with ablation and interpretability studies underscoring the complementary value of its temporal and graph components.
+The authors propose S¬≤G-Net, a hybrid architecture that merges Mamba state-space sequence modeling with a multi-view GraphGPS backbone to predict ICU length of stay from heterogeneous EHR data. Experiments on the MIMIC-IV dataset show that S¬≤G-Net surpasses conventional sequence models, classic GNNs, and prior hybrid approaches, with ablation and interpretability studies underscoring the complementary value of its temporal and graph components.
 
 </details>
 <details>
@@ -1755,21 +1755,9 @@ Clin-JEPA extends joint-embedding predictive architectures to EHR patient trajec
 
 </details>
 <details>
-<summary><strong>WISTERIA: Learning Clinical Representations from Noisy Supervision via Multi-View Consistency in Electronic Health Records</strong> (2026-05, arXiv). <a href="https://arxiv.org/abs/2605.09765">arXiv</a></summary>
-
-WISTERIA is a weakly supervised EHR representation learning framework that treats labels as stochastic observations of a latent clinical state and enforces multi-view consistency across many weak supervision operators. Ontology-aware regularization imposes semantic structure on the supervision signals, and the resulting representations are robust to label noise and generalize across institutions.
-
-</details>
-<details>
 <summary><strong>Beyond Patient Invariance: Learning Cardiac Dynamics via Action-Conditioned JEPAs</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.22618">arXiv</a></summary>
 
 The paper adapts the LeJEPA framework into an action-conditioned world model for physiological time-series, modeling pathology as a transition vector acting on a patient's latent state rather than a static label. By predicting future electrophysiological states given disease onset events, the model disentangles stable anatomy from dynamic pathological forces. On MIMIC-IV-ECG, it surpasses supervised baselines, particularly in low-resource regimes.
-
-</details>
-<details>
-<summary><strong>Hierarchical Contrastive Learning for Multimodal Data</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.05462">arXiv</a></summary>
-
-Hierarchical Contrastive Learning (HCL) jointly learns globally shared, partially shared, and modality-specific latent factors with a structure-aware contrastive objective that aligns only modalities sharing a latent factor. The framework includes theoretical identifiability and recovery guarantees plus excess-risk bounds for downstream prediction. Applied to multimodal EHRs, HCL produces more informative representations and improves prediction.
 
 </details>
 <details>
@@ -1779,27 +1767,9 @@ The paper proposes a supervised representation learning framework for longitudin
 
 </details>
 <details>
-<summary><strong>Learning Clinical Representations Under Systematic Distribution Shift</strong> (2026-03, arXiv). <a href="https://arxiv.org/abs/2603.07348">arXiv</a></summary>
-
-The paper introduces a practice-invariant representation learning framework for longitudinal EHR prediction that combines supervised risk minimization with adversarial environment regularization and invariant risk penalties across hospitals. The latent model separates physiologic factors from environment-dependent measurement and documentation artifacts. Across multiple cross-institution EHR tasks the approach improves out-of-distribution AUROC by 2-3 points over masked pretraining and supervised baselines while preserving calibration.
-
-</details>
-<details>
-<summary><strong>Multimodal Training to Unimodal Deployment: Leveraging Unstructured Data During Training to Optimize Structured Data Only Deployment</strong> (2026-03, arXiv). <a href="https://arxiv.org/abs/2603.22530">arXiv</a></summary>
-
-The paper proposes a multimodal training to unimodal deployment framework that uses contrastive learning and contrastive knowledge distillation to transfer information from a note-based teacher into a structured-only student. At deployment only structured EHR features are required, removing the need for clinical notes. The contrastive distillation objective lifts AUROC over a structured-only baseline on a pediatric late-talking phenotype cohort.
-
-</details>
-<details>
 <summary><strong>Multivariate Contrastive Predictive Coding with Sliding Windows for Disease Prediction from Electronic Health Records</strong> (2026-03, Advanced Intelligent Systems). <a href="https://www.semanticscholar.org/paper/3e02f33dd4fd54e2001147b988cc7d495dd4f222">Semantic Scholar</a></summary>
 
 The paper introduces AMCPC, a self-supervised pretraining framework that segments EHR visit sequences into adaptive sliding sub-windows and extends contrastive predictive coding with a 2D CNN to capture localized temporal patterns and global inter-indicator correlations. Across three real-world clinical datasets, AMCPC outperforms fully supervised and existing self-supervised baselines, especially when only limited labeled data are available, providing strong representations for downstream disease prediction.
-
-</details>
-<details>
-<summary><strong>Exploring Accurate and Transparent Domain Adaptation in Predictive Healthcare via Concept-Grounded Orthogonal Inference</strong> (2026-02, arXiv). <a href="https://arxiv.org/abs/2602.12542">arXiv</a></summary>
-
-The paper proposes ExtraCare, a transparent domain-adaptation method for EHR clinical event prediction that decomposes patient representations into orthogonal invariant and covariant components and maps sparse latent dimensions to medical concepts for interpretability. On two real-world EHR datasets, ExtraCare outperforms feature-alignment baselines while providing concept-grounded explanations.
 
 </details>
 <details>
@@ -1818,12 +1788,6 @@ The paper proposes NPCNet, a deep clustering network for early sepsis phenotypin
 <summary><strong>Learning temporal embeddings from electronic health records of chronic kidney disease patients</strong> (2026-01, arXiv). <a href="https://arxiv.org/abs/2601.18675">arXiv</a></summary>
 
 The paper studies temporal embedding learning from longitudinal EHRs of chronic kidney disease patients in MIMIC-IV, comparing vanilla LSTM, attention-augmented LSTM, and time-aware T-LSTM as both embedding models and end-to-end predictors. The T-LSTM yields the most structured embeddings for CKD stage clustering, and embedding-based models consistently outperform direct end-to-end predictors on in-ICU mortality.
-
-</details>
-<details>
-<summary><strong>Robust Multimodal Representation Learning in Healthcare</strong> (2026-01, arXiv). <a href="https://arxiv.org/abs/2601.21941">arXiv</a></summary>
-
-The paper proposes a Dual-Stream Feature Decorrelation Framework that disentangles causal features from spurious correlations in multimodal patient representations using structural causal analysis, generalized cross-entropy loss, and mutual information minimization. The model-agnostic approach delivers consistent gains on MIMIC-IV, eICU, and ADNI for clinical outcome prediction.
 
 </details>
 <details>
@@ -2192,7 +2156,7 @@ The authors introduce a bidirectional recurrent network that augments a Bi-LSTM 
 <details>
 <summary><strong>Modelling patient trajectories using multimodal information</strong> (2022-09, Journal of Biomedical Informatics). <a href="https://www.sciencedirect.com/science/article/pii/S1532046422002003?via%3Dihub">PubMed</a></summary>
 
-This paper proposes a deep learning approach to model patient trajectories from Electronic Health Records by combining heterogeneous data types (clinical text and standardized codes) while preserving the temporal structure of admissions. The authors introduce two architectures: one that flexibly fuses multimodal admission features into dense representations, and a recurrent-based one that processes sequences of admissions using a sliding window mechanism. Evaluated on MIMIC-III for unexpected readmission and disease progression prediction, the method achieved results comparable to existing solutions, though the clinical text component underperformed expectations Ñ likely due to clinicalBERT not being fine-tuned. The code is released as PatientTM on GitHub.
+This paper proposes a deep learning approach to model patient trajectories from Electronic Health Records by combining heterogeneous data types (clinical text and standardized codes) while preserving the temporal structure of admissions. The authors introduce two architectures: one that flexibly fuses multimodal admission features into dense representations, and a recurrent-based one that processes sequences of admissions using a sliding window mechanism. Evaluated on MIMIC-III for unexpected readmission and disease progression prediction, the method achieved results comparable to existing solutions, though the clinical text component underperformed expectations � likely due to clinicalBERT not being fine-tuned. The code is released as PatientTM on GitHub.
 
 </details>
 <details>
