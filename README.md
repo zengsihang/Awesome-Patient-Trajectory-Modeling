@@ -509,7 +509,7 @@ The authors introduce BiPETE, a transformer encoder that combines rotary and sin
 <details>
 <summary><strong>HPformer: Low-Parameter Transformer With Temporal Dependency Hierarchical Propagation for Health Informatics</strong> (2025-11, IEEE Transactions on Pattern Analysis and Machine Intelligence). <a href="https://pubmed.ncbi.nlm.nih.gov/40729723/">PubMed</a></summary>
 
-HPformer introduces a low-parameter transformer architecture that divides sequences into logarithmically many chunks, hierarchically propagates temporal dependencies, and shares key/value matrices across layers to reduce self-attention complexity from O(L¬≤) to O(L log L). Extensive evaluations on publicly available health-informatics benchmarks and the LRA benchmark demonstrate that HPformer achieves competitive predictive performance with markedly lower memory usage and computational cost compared to standard...
+HPformer introduces a low-parameter transformer architecture that divides sequences into logarithmically many chunks, hierarchically propagates temporal dependencies, and shares key/value matrices across layers to reduce self-attention complexity from O(LÂ¬â¤) to O(L log L). Extensive evaluations on publicly available health-informatics benchmarks and the LRA benchmark demonstrate that HPformer achieves competitive predictive performance with markedly lower memory usage and computational cost compared to standard...
 
 </details>
 <details>
@@ -989,7 +989,7 @@ EHRWorld introduces a patient-centric medical world model that leverages a causa
 <details>
 <summary><strong>Efficient Variance-reduced Estimation from Generative EHR Models: The SCOPE and REACH Estimators</strong> (2026-02, arXiv). <a href="https://arxiv.org/abs/2602.03730">arXiv</a></summary>
 
-The authors introduce two unbiased, variance-reduced estimators-SCOPE and REACH-that directly exploit the next-token probability distributions of generative EHR models, eliminating the need for expensive Monte¬†Carlo trajectory sampling. They mathematically prove unbiasedness and show REACH consistently lowers estimator variance, achieving up to a ten-fold inference speed-up on MIMIC-IV hospital-mortality predictions with comparable accuracy and calibration.
+The authors introduce two unbiased, variance-reduced estimators-SCOPE and REACH-that directly exploit the next-token probability distributions of generative EHR models, eliminating the need for expensive MonteÂ¬â Carlo trajectory sampling. They mathematically prove unbiasedness and show REACH consistently lowers estimator variance, achieving up to a ten-fold inference speed-up on MIMIC-IV hospital-mortality predictions with comparable accuracy and calibration.
 
 </details>
 <details>
@@ -1535,7 +1535,7 @@ This paper introduces a generative framework that models clinical time series as
 <details>
 <summary><strong>Bridging Graph and State-Space Modeling for Intensive Care Unit Length of Stay Prediction</strong> (2025-08, arXiv). <a href="https://arxiv.org/abs/2508.17554">arXiv</a></summary>
 
-The authors propose S¬≤G-Net, a hybrid architecture that merges Mamba state-space sequence modeling with a multi-view GraphGPS backbone to predict ICU length of stay from heterogeneous EHR data. Experiments on the MIMIC-IV dataset show that S¬≤G-Net surpasses conventional sequence models, classic GNNs, and prior hybrid approaches, with ablation and interpretability studies underscoring the complementary value of its temporal and graph components.
+The authors propose SÂ¬â¤G-Net, a hybrid architecture that merges Mamba state-space sequence modeling with a multi-view GraphGPS backbone to predict ICU length of stay from heterogeneous EHR data. Experiments on the MIMIC-IV dataset show that SÂ¬â¤G-Net surpasses conventional sequence models, classic GNNs, and prior hybrid approaches, with ablation and interpretability studies underscoring the complementary value of its temporal and graph components.
 
 </details>
 <details>
@@ -2187,6 +2187,12 @@ The authors present GRU-D-Weibull, a recurrent model that integrates gated recur
 <summary><strong>Research on Bidirectional Recurrent Imputation of Multivariate Time Series for Clinical Outcomes Prediction</strong> (2022-12, IEEE International Conference on Bioinformatics and Biomedicine). <a href="https://www.semanticscholar.org/paper/ba5ecffdc46327342ce738f55693f978b144e71a">Semantic Scholar</a></summary>
 
 The authors introduce a bidirectional recurrent network that augments a Bi-LSTM with a trainable weighted-decay mechanism to impute missing values in multivariate clinical time-series. By incorporating missing-rate, cumulative missing rate, and burstiness for each variable, the model learns variable-specific features, improving both imputation accuracy and downstream prediction of clinical outcomes.
+
+</details>
+<details>
+<summary><strong>Modelling patient trajectories using multimodal information</strong> (2022-09, Journal of Biomedical Informatics). <a href="https://www.sciencedirect.com/science/article/pii/S1532046422002003?via%3Dihub">PubMed</a></summary>
+
+This paper proposes a deep learning approach to model patient trajectories from Electronic Health Records by combining heterogeneous data types (clinical text and standardized codes) while preserving the temporal structure of admissions. The authors introduce two architectures: one that flexibly fuses multimodal admission features into dense representations, and a recurrent-based one that processes sequences of admissions using a sliding window mechanism. Evaluated on MIMIC-III for unexpected readmission and disease progression prediction, the method achieved results comparable to existing solutions, though the clinical text component underperformed expectations Ñ likely due to clinicalBERT not being fine-tuned. The code is released as PatientTM on GitHub.
 
 </details>
 <details>
