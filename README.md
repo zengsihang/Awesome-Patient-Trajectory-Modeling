@@ -41,45 +41,15 @@ Apollo is a multimodal temporal foundation model trained on 25 billion longitudi
 
 </details>
 <details>
-<summary><strong>EviCare: Enhancing Diagnosis Prediction with Deep Model-Guided Evidence for In-Context Reasoning</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.10455">arXiv</a></summary>
-
-EviCare proposes an in-context reasoning framework that fuses deep-model candidate selection, evidential prioritization, and relational evidence construction into adaptive prompts to guide LLM-based diagnosis prediction on EHRs. The framework specifically targets the overlooked novel-diagnosis prediction problem. Experiments on MIMIC-III and MIMIC-IV show large gains over LLM-only and deep-model-only baselines.
-
-</details>
-<details>
-<summary><strong>FeatEHR-LLM: Leveraging Large Language Models for Feature Engineering in Electronic Health Records</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.22534">arXiv</a></summary>
-
-The paper presents FeatEHR-LLM, a framework that uses LLMs to generate clinically meaningful tabular features from irregularly sampled EHR time series. The LLM operates only on schemas and task descriptions and uses tool-augmented generation with specialized routines for irregular temporal data. An iterative validation-in-the-loop pipeline supports univariate and multivariate features and improves AUROC across ICU prediction tasks.
-
-</details>
-<details>
-<summary><strong>MedGemma 1.5 Technical Report</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.05081">arXiv</a></summary>
-
-MedGemma 1.5 4B is a multimodal medical foundation model that adds high-dimensional CT/MRI volumes, whole-slide pathology, anatomical bounding-box localization, and multi-timepoint chest X-ray analysis to a single architecture. Architectural innovations include long-context 3D volume slicing and whole-slide pathology sampling. It improves over MedGemma 1 on imaging classification, longitudinal X-ray analysis, MedQA, and EHRQA benchmarks.
-
-</details>
-<details>
 <summary><strong>RePrompT: Recurrent Prompt Tuning for Integrating Structured EHR Encoders with Large Language Models</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.17725">arXiv</a></summary>
 
 The paper introduces RePrompT, a time-aware framework that integrates structured EHR encoders into frozen LLMs via recurrent prompt tuning. Latent states from prior visits are recurrently injected to preserve longitudinal structure, and trainable prompt tokens carry population-level information from a cohort-trained EHR encoder. RePrompT outperforms EHR- and LLM-based baselines on multiple MIMIC prediction tasks.
 
 </details>
 <details>
-<summary><strong>DeepCORO-CLIP: A Multi-View Foundation Model for Comprehensive Coronary Angiography Video-Text Analysis and External Validation</strong> (2026-03, arXiv). <a href="https://arxiv.org/abs/2603.17675">arXiv</a></summary>
-
-The paper presents DeepCORO-CLIP, a multi-view foundation model trained with video-text contrastive learning on over 200k angiography videos. It uses attention-based pooling to integrate multiple projections for study-level diagnostic, prognostic, and disease-progression tasks. Embeddings capture serial-exam disease progression and transfer to one-year MACE prediction.
-
-</details>
-<details>
 <summary><strong>EveryQuery: Zero-Shot Clinical Prediction via Task-Conditioned Pretraining over Electronic Health Records</strong> (2026-03, arXiv). <a href="https://arxiv.org/abs/2603.07900">arXiv</a></summary>
 
 EveryQuery is an EHR foundation model that replaces autoregressive trajectory simulation with task-conditioned pretraining: a structured query and patient history are mapped to outcome likelihood in a single forward pass. The model is pretrained over randomly sampled task-context combinations, enabling zero-shot prediction across the query space without fine-tuning or sampling. On MIMIC-IV it beats an autoregressive baseline on 82 percent of 39 sampled tasks with particularly large gains on rare clinical events.
-
-</details>
-<details>
-<summary><strong>GEN-KnowRD: Reframing AI for Rare Disease Recognition</strong> (2026-03, medRxiv). <a href="https://www.medrxiv.org/content/10.64898/2026.03.02.26347469v1">medRxiv</a></summary>
-
-GEN-KnowRD repositions large language models from diagnostic reasoning to the knowledge layer by generating schema-guided rare disease profiles and constructing the PheMAP-RD knowledge base. The framework integrates this knowledge into lightweight inference pipelines over longitudinal EHRs and substantially improves disease ranking compared to HPO-centered and end-to-end LLM baselines, including for early discrimination of idiopathic pulmonary fibrosis.
 
 </details>
 <details>
@@ -116,12 +86,6 @@ The paper proposes a multimodal foundation model that jointly represents electro
 <summary><strong>NEST: Nested Event Stream Transformer for Sequences of Multisets</strong> (2026-01, arXiv). <a href="https://arxiv.org/abs/2602.00520">arXiv</a></summary>
 
 The paper presents NEST, a foundation model for event streams structured as sequences of multisets, which preserves the visit-level hierarchy of EHR events and introduces Masked Set Modeling for set-level representation learning. NEST improves pretraining efficiency and downstream performance on real-world clinical encounter data.
-
-</details>
-<details>
-<summary><strong>UniPACT: A Multimodal Framework for Prognostic Question Answering on Raw ECG and Structured EHR</strong> (2026-01, arXiv). <a href="https://arxiv.org/abs/2601.17916">arXiv</a></summary>
-
-The paper introduces UniPACT, a unified multimodal framework that converts numerical EHR data into semantically rich text and fuses it with raw ECG waveform representations for LLM-driven prognostic question answering. On the MDS-ED benchmark, UniPACT reaches a state-of-the-art mean AUROC of 89.37% across diagnosis, deterioration, ICU admission, and mortality tasks while remaining robust to missing modalities.
 
 </details>
 <details>
@@ -242,24 +206,6 @@ The paper presents MOTOR, a self-supervised foundation model that learns represe
 ### Agentic System
 
 <details>
-<summary><strong>CARE: Privacy-Compliant Agentic Reasoning with Evidence Discordance</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.01113">arXiv</a></summary>
-
-CARE is a multi-stage privacy-compliant agentic reasoning framework where a remote LLM produces structured categories and transitions without seeing sensitive data, while a local LLM uses them to acquire evidence and make decisions for short-horizon ICU organ-dysfunction worsening prediction. The authors also release MIMIC-DOS, a dataset focused on cases of sign-symptom discordance. CARE outperforms single-pass LLM and agentic baselines on conflicting clinical evidence.
-
-</details>
-<details>
-<summary><strong>Cohort-Aware Agents for Individualized Lung Cancer Risk Prediction Using a Retrieval-Augmented Model Selection Framework</strong> (2026-04, SPIE Medical Imaging). <a href="https://pubmed.ncbi.nlm.nih.gov/41987941/">PubMed</a></summary>
-
-The paper proposes a cohort-aware agent that performs FAISS-based retrieval across nine real-world lung cancer cohorts and then prompts a large language model to select the most appropriate risk model, including temporally-aware models such as TD-VIT and DLSTM, for each patient. The two-stage retrieval-and-reasoning pipeline enables personalized, cohort-driven model selection for lung cancer screening risk prediction.
-
-</details>
-<details>
-<summary><strong>Detecting Clinical Discrepancies in Health Coaching Agents: A Dual-Stream Memory and Reconciliation Architecture</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.27045">arXiv</a></summary>
-
-The paper introduces a Dual-Stream Memory Architecture for longitudinal LLM health-coaching agents that separates patient narrative memory from structured FHIR clinical records. A dedicated Reconciliation Engine evaluates extracted memories against the FHIR profile and classifies discrepancies by type, severity, and affected resources. The architecture detects clinical discrepancies with high safety-critical recall across longitudinal sessions.
-
-</details>
-<details>
 <summary><strong>TrajOnco: a multi-agent framework for temporal reasoning over longitudinal EHR for multi-cancer early detection</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.10386">arXiv</a></summary>
 
 The paper presents TrajOnco, a training-free multi-agent LLM framework that performs temporal reasoning over longitudinal EHRs for multi-cancer early detection. A chain-of-agents architecture with long-term memory produces patient-level summaries, evidence-linked rationales, and risk scores in zero-shot. The multi-agent design enables strong temporal reasoning even with smaller-capacity LLM backbones.
@@ -269,36 +215,6 @@ The paper presents TrajOnco, a training-free multi-agent LLM framework that perf
 <summary><strong>Uncertainty-Guided Latent Diagnostic Trajectory Learning for Sequential Clinical Diagnosis</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.05116">arXiv</a></summary>
 
 LDTL formulates sequential clinical diagnosis as latent trajectory learning with a planning LLM agent and a diagnostic LLM agent. It introduces a posterior distribution over latent evidence-acquisition paths that favors informative trajectories and trains the planning agent to align with this posterior, encouraging uncertainty-reducing actions. Experiments on MIMIC-CDM show gains in diagnostic accuracy with fewer tests.
-
-</details>
-<details>
-<summary><strong>Autonomous Agent-Orchestrated Digital Twins (AADT): Leveraging the OpenClaw Framework for State Synchronization in Rare Genetic Disorders</strong> (2026-03, arXiv). <a href="https://arxiv.org/abs/2603.27104">arXiv</a></summary>
-
-AADT is an autonomous agent-orchestrated digital twin framework in which OpenClaw's heartbeat mechanism and modular Agent Skills continuously monitor patient-reported phenotypes and external variant databases, then trigger workflows for ingestion, normalization, and state updates. Two rare-disease case studies demonstrate variant reinterpretation and longitudinal phenotype tracking, showing how agent orchestration keeps patient state synchronized with evolving genomic knowledge.
-
-</details>
-<details>
-<summary><strong>LLMs can construct powerful representations and streamline sample-efficient supervised learning</strong> (2026-03, arXiv). <a href="https://arxiv.org/abs/2603.11679">arXiv</a></summary>
-
-The paper proposes an agentic representation pipeline in which an LLM analyzes a diverse sample of text-serialized records to synthesize a global rubric that programmatically extracts and organizes evidence, complemented by task-conditioned local rubrics. Across 15 EHRSHOT clinical tasks the rubric-based representations outperform count-feature models, naive serialization LLM baselines, and a clinical foundation model pretrained on far more data, while remaining auditable and convertible to tabular features.
-
-</details>
-<details>
-<summary><strong>Synthetic or Authentic? Building Mental Patient Simulators from Longitudinal Evidence</strong> (2026-03, arXiv). <a href="https://arxiv.org/abs/2603.22704">arXiv</a></summary>
-
-The paper proposes DEPROFILE, a data-grounded patient simulation framework that integrates demographic attributes, standardized symptoms, counseling dialogues, and longitudinal life-event histories into unified patient profiles. It introduces a Chain-of-Change agent that transforms noisy longitudinal records into structured, temporally grounded memory representations for LLM-based mental patient simulators. The approach improves dialogue realism, behavioral diversity, and event richness over prior simulators.
-
-</details>
-<details>
-<summary><strong>MED-COPILOT: A Medical Assistant Powered by GraphRAG and Similar Patient Case Retrieval</strong> (2026-02, arXiv). <a href="https://arxiv.org/abs/2603.00460">arXiv</a></summary>
-
-MED-COPILOT is an interactive clinical decision-support system that combines guideline-grounded GraphRAG retrieval with hybrid semantic-keyword retrieval over a 36,000-case database of MIMIC-IV and Synthea patient trajectories. The system improves generation fidelity and clinical reasoning accuracy on note completion and medical question answering compared to parametric LLM and standard RAG baselines.
-
-</details>
-<details>
-<summary><strong>SynthAgent: A Multi-Agent LLM Framework for Realistic Patient Simulation -- A Case Study in Obesity with Mental Health Comorbidities</strong> (2026-02, arXiv). <a href="https://arxiv.org/abs/2602.08254">arXiv</a></summary>
-
-The paper presents SynthAgent, a multi-agent LLM framework that simulates obesity patients with mental health comorbidities by integrating claims data, surveys, and literature into personality-enriched virtual patients whose agent interactions model disease progression and treatment response. Evaluation on over 100 generated patients shows GPT-5 and Claude 4.5 Sonnet as the highest-fidelity engines.
 
 </details>
 <details>
@@ -938,18 +854,6 @@ RAVEN is a recurrence-aware generative pretraining strategy that autoregressivel
 <summary><strong>EHRWorld: A Patient-Centric Medical World Model for Long-Horizon Clinical Trajectories</strong> (2026-02, arXiv). <a href="https://arxiv.org/abs/2602.03569">arXiv</a></summary>
 
 EHRWorld introduces a patient-centric medical world model that leverages a causal sequential training paradigm to simulate future clinical states over extended horizons. Trained on the newly released EHRWorld-110K EHR dataset, the model outperforms naive LLM baselines, achieving more stable long-term simulations and improved modeling of clinically sensitive events, underscoring the importance of causally grounded, temporally evolving data for reliable medical world modeling.
-
-</details>
-<details>
-<summary><strong>Efficient Variance-reduced Estimation from Generative EHR Models: The SCOPE and REACH Estimators</strong> (2026-02, arXiv). <a href="https://arxiv.org/abs/2602.03730">arXiv</a></summary>
-
-The authors introduce two unbiased, variance-reduced estimators-SCOPE and REACH-that directly exploit the next-token probability distributions of generative EHR models, eliminating the need for expensive Monte¬†Carlo trajectory sampling. They mathematically prove unbiasedness and show REACH consistently lowers estimator variance, achieving up to a ten-fold inference speed-up on MIMIC-IV hospital-mortality predictions with comparable accuracy and calibration.
-
-</details>
-<details>
-<summary><strong>Privately Fine-Tuned LLMs Preserve Temporal Dynamics in Tabular Data</strong> (2026-02, arXiv). <a href="https://arxiv.org/abs/2602.02766">arXiv</a></summary>
-
-The paper introduces PATH, a differentially private generative framework that fine-tunes autoregressive LLMs to synthesize longitudinal tabular records, such as EHRs, while preserving long-range temporal dependencies. PATH reduces distributional distance to real trajectories by over 60% and state transition errors by nearly 50% relative to leading marginal-based mechanisms.
 
 </details>
 <details>
