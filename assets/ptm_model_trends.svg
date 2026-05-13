@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="560" viewBox="0 0 1180 560" role="img" aria-label="Patient trajectory modeling paper trends by architecture category">
+<defs>
+<style><![CDATA[text{font-family:Arial,Helvetica,sans-serif}.axis{font-size:15px;fill:#202020}.legend{font-size:14px;fill:#202020}.tick{font-size:13px;fill:#404040}.grid{stroke:#D9D9D9;stroke-width:1}.axisline{stroke:#202020;stroke-width:1.4}.series{fill:none;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}.dot{stroke:#fff;stroke-width:1.6}]]></style>
+</defs>
+<rect x="0" y="0" width="1180" height="560" fill="#FFFFFF"/>
+<line class="grid" x1="78" y1="484.0" x2="830" y2="484.0"/>
+<text class="tick" x="64" y="488.0" text-anchor="end">0</text>
+<line class="grid" x1="78" y1="394.4" x2="830" y2="394.4"/>
+<text class="tick" x="64" y="398.4" text-anchor="end">4</text>
+<line class="grid" x1="78" y1="304.8" x2="830" y2="304.8"/>
+<text class="tick" x="64" y="308.8" text-anchor="end">8</text>
+<line class="grid" x1="78" y1="215.2" x2="830" y2="215.2"/>
+<text class="tick" x="64" y="219.2" text-anchor="end">12</text>
+<line class="grid" x1="78" y1="125.6" x2="830" y2="125.6"/>
+<text class="tick" x="64" y="129.6" text-anchor="end">16</text>
+<line class="grid" x1="78" y1="36.0" x2="830" y2="36.0"/>
+<text class="tick" x="64" y="40.0" text-anchor="end">20</text>
+<line class="axisline" x1="78" y1="484" x2="830" y2="484"/>
+<line class="axisline" x1="78" y1="36" x2="78" y2="484"/>
+<text class="tick" x="78.0" y="510" text-anchor="middle">2021</text>
+<text class="tick" x="228.4" y="510" text-anchor="middle">2022</text>
+<text class="tick" x="378.8" y="510" text-anchor="middle">2023</text>
+<text class="tick" x="529.2" y="510" text-anchor="middle">2024</text>
+<text class="tick" x="679.6" y="510" text-anchor="middle">2025</text>
+<text class="tick" x="830.0" y="510" text-anchor="middle">2026</text>
+<text class="axis" x="454.0" y="534" text-anchor="middle">Publication year</text>
+<text class="axis" x="24" y="260.0" transform="rotate(-90 24 260.0)" text-anchor="middle">Number of papers</text>
+<path class="series" d="M78.0,484.0 L228.4,484.0 L378.8,439.2 L529.2,372.0 L679.6,215.2 L830.0,58.4" stroke="#0072B2"/>
+<circle class="dot" cx="78.0" cy="484.0" r="4.2" fill="#0072B2"/>
+<circle class="dot" cx="228.4" cy="484.0" r="4.2" fill="#0072B2"/>
+<circle class="dot" cx="378.8" cy="439.2" r="4.2" fill="#0072B2"/>
+<circle class="dot" cx="529.2" cy="372.0" r="4.2" fill="#0072B2"/>
+<circle class="dot" cx="679.6" cy="215.2" r="4.2" fill="#0072B2"/>
+<circle class="dot" cx="830.0" cy="58.4" r="4.2" fill="#0072B2"/>
+<line x1="872" y1="50" x2="898" y2="50" stroke="#0072B2" stroke-width="2.8" stroke-linecap="round"/>
+<text class="legend" x="910" y="55">Foundation / LLM</text>
+<path class="series" d="M78.0,416.8 L228.4,461.6 L378.8,237.6 L529.2,372.0 L679.6,80.8 L830.0,215.2" stroke="#D55E00"/>
+<circle class="dot" cx="78.0" cy="416.8" r="4.2" fill="#D55E00"/>
+<circle class="dot" cx="228.4" cy="461.6" r="4.2" fill="#D55E00"/>
+<circle class="dot" cx="378.8" cy="237.6" r="4.2" fill="#D55E00"/>
+<circle class="dot" cx="529.2" cy="372.0" r="4.2" fill="#D55E00"/>
+<circle class="dot" cx="679.6" cy="80.8" r="4.2" fill="#D55E00"/>
+<circle class="dot" cx="830.0" cy="215.2" r="4.2" fill="#D55E00"/>
+<line x1="872" y1="79" x2="898" y2="79" stroke="#D55E00" stroke-width="2.8" stroke-linecap="round"/>
+<text class="legend" x="910" y="84">Graph / Hypergraph</text>
+<path class="series" d="M78.0,484.0 L228.4,484.0 L378.8,439.2 L529.2,439.2 L679.6,349.6 L830.0,170.4" stroke="#009E73"/>
+<circle class="dot" cx="78.0" cy="484.0" r="4.2" fill="#009E73"/>
+<circle class="dot" cx="228.4" cy="484.0" r="4.2" fill="#009E73"/>
+<circle class="dot" cx="378.8" cy="439.2" r="4.2" fill="#009E73"/>
+<circle class="dot" cx="529.2" cy="439.2" r="4.2" fill="#009E73"/>
+<circle class="dot" cx="679.6" cy="349.6" r="4.2" fill="#009E73"/>
+<circle class="dot" cx="830.0" cy="170.4" r="4.2" fill="#009E73"/>
+<line x1="872" y1="108" x2="898" y2="108" stroke="#009E73" stroke-width="2.8" stroke-linecap="round"/>
+<text class="legend" x="910" y="113">Model Benchmark</text>
+<path class="series" d="M78.0,349.6 L228.4,416.8 L378.8,349.6 L529.2,349.6 L679.6,327.2 L830.0,148.0" stroke="#CC79A7"/>
+<circle class="dot" cx="78.0" cy="349.6" r="4.2" fill="#CC79A7"/>
+<circle class="dot" cx="228.4" cy="416.8" r="4.2" fill="#CC79A7"/>
+<circle class="dot" cx="378.8" cy="349.6" r="4.2" fill="#CC79A7"/>
+<circle class="dot" cx="529.2" cy="349.6" r="4.2" fill="#CC79A7"/>
+<circle class="dot" cx="679.6" cy="327.2" r="4.2" fill="#CC79A7"/>
+<circle class="dot" cx="830.0" cy="148.0" r="4.2" fill="#CC79A7"/>
+<line x1="872" y1="137" x2="898" y2="137" stroke="#CC79A7" stroke-width="2.8" stroke-linecap="round"/>
+<text class="legend" x="910" y="142">ODE / Continuous-Time / State-Space</text>
+<path class="series" d="M78.0,484.0 L228.4,461.6 L378.8,416.8 L529.2,439.2 L679.6,416.8 L830.0,192.8" stroke="#E69F00"/>
+<circle class="dot" cx="78.0" cy="484.0" r="4.2" fill="#E69F00"/>
+<circle class="dot" cx="228.4" cy="461.6" r="4.2" fill="#E69F00"/>
+<circle class="dot" cx="378.8" cy="416.8" r="4.2" fill="#E69F00"/>
+<circle class="dot" cx="529.2" cy="439.2" r="4.2" fill="#E69F00"/>
+<circle class="dot" cx="679.6" cy="416.8" r="4.2" fill="#E69F00"/>
+<circle class="dot" cx="830.0" cy="192.8" r="4.2" fill="#E69F00"/>
+<line x1="872" y1="166" x2="898" y2="166" stroke="#E69F00" stroke-width="2.8" stroke-linecap="round"/>
+<text class="legend" x="910" y="171">Representation / Contrastive Learning</text>
+<path class="series" d="M78.0,304.8 L228.4,192.8 L378.8,103.2 L529.2,125.6 L679.6,58.4 L830.0,58.4" stroke="#56B4E9"/>
+<circle class="dot" cx="78.0" cy="304.8" r="4.2" fill="#56B4E9"/>
+<circle class="dot" cx="228.4" cy="192.8" r="4.2" fill="#56B4E9"/>
+<circle class="dot" cx="378.8" cy="103.2" r="4.2" fill="#56B4E9"/>
+<circle class="dot" cx="529.2" cy="125.6" r="4.2" fill="#56B4E9"/>
+<circle class="dot" cx="679.6" cy="58.4" r="4.2" fill="#56B4E9"/>
+<circle class="dot" cx="830.0" cy="58.4" r="4.2" fill="#56B4E9"/>
+<line x1="872" y1="195" x2="898" y2="195" stroke="#56B4E9" stroke-width="2.8" stroke-linecap="round"/>
+<text class="legend" x="910" y="200">Transformer / Attention-based Encoder</text>
+<path class="series" d="M78.0,484.0 L228.4,439.2 L378.8,439.2 L529.2,349.6 L679.6,304.8 L830.0,304.8" stroke="#4D4D4D"/>
+<circle class="dot" cx="78.0" cy="484.0" r="4.2" fill="#4D4D4D"/>
+<circle class="dot" cx="228.4" cy="439.2" r="4.2" fill="#4D4D4D"/>
+<circle class="dot" cx="378.8" cy="439.2" r="4.2" fill="#4D4D4D"/>
+<circle class="dot" cx="529.2" cy="349.6" r="4.2" fill="#4D4D4D"/>
+<circle class="dot" cx="679.6" cy="304.8" r="4.2" fill="#4D4D4D"/>
+<circle class="dot" cx="830.0" cy="304.8" r="4.2" fill="#4D4D4D"/>
+<line x1="872" y1="224" x2="898" y2="224" stroke="#4D4D4D" stroke-width="2.8" stroke-linecap="round"/>
+<text class="legend" x="910" y="229">Transformer Decoder / Generative LM</text>
+</svg>
