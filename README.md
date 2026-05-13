@@ -4,8 +4,6 @@
 ![Curated](https://img.shields.io/badge/curated-literature-2f855a)
 ![Focus](https://img.shields.io/badge/focus-patient%20trajectory%20modeling-2454A6)
 
-The paper list is maintained by Sihang Zeng, Zixuan Yu, and Zhaoyi Sun.
-
 A curated bibliography of patient trajectory modeling (PTM), covering longitudinal EHR models, clinical event-stream foundation models, trajectory simulation, temporal representation learning, and benchmark or analysis studies.
 
 ![Trend of PTM model categories](assets/ptm_model_trends.svg)
@@ -725,12 +723,6 @@ The study surveys modern machine-learning approaches for jointly modeling multiv
 
 </details>
 <details>
-<summary><strong>A multi-task Gaussian process self-attention neural network for real-time prediction of the need for mechanical ventilators in COVID-19 patients</strong> (2022-06, Journal of Biomedical Informatics). <a href="https://pubmed.ncbi.nlm.nih.gov/35489596/">PubMed</a></summary>
-
-The study introduces an end-to-end neural network combining a Multi-task Gaussian Process to model irregularly sampled vital signs with a self-attention layer for real-time prediction of mechanical-ventilation need in hospitalized COVID-19 patients. Evaluated on 9,532 nationwide inpatient records, the model shows improved AUROC and AUPRC over conventional machine-learning and deep-learning baselines-especially shortly after admission-and demonstrates robust, consistent risk-score predictions.
-
-</details>
-<details>
 <summary><strong>Multi-modal Contrastive Learning for Healthcare Data Analytics</strong> (2022-06, IEEE International Conference on Healthcare Informatics). <a href="https://www.semanticscholar.org/paper/378112f58884efbfca9477c86c89abce6b30b192">Semantic Scholar</a></summary>
 
 The paper introduces a multimodal contrastive learning framework that embeds diagnosis codes in hyperbolic space and uses a hyperbolic transformer to capture sequential admission information. It incorporates clinical features through a multi-modal contrastive loss and proposes a supervised contrastive loss for multi-label settings, demonstrating enhanced performance on diagnosis and mortality prediction across two public EHR datasets.
@@ -1289,21 +1281,9 @@ The paper proposes a two-view mixture model that jointly clusters patients using
 
 </details>
 <details>
-<summary><strong>Differentiable latent structure discovery for interpretable forecasting in clinical time series</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.27967">arXiv</a></summary>
-
-The paper introduces StructGP, a continuous-time multi-task Gaussian process that couples process convolutions with differentiable DAG structure learning for interpretable forecasting on irregular EHR. LP-StructGP extends it with latent pathways inferred via subject-specific coupling filters and softmax gating to capture cross-patient progression. The models deliver calibrated, scalable forecasting on ICU cohorts.
-
-</details>
-<details>
 <summary><strong>LNODE: latent dynamics reveal the shared spatiotemporal structure of amyloid-beta progression</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2605.00272">arXiv</a></summary>
 
 LNODE introduces a regional neural ODE model with cohort-shared latent dynamics that captures spatial propagation, proliferation, and clearance of amyloid-beta in PET imaging, while remaining intentionally underparameterized. The model achieves identifiability, accurate multi-year forecasting on ADNI and A4 cohorts, and reveals interpretable patient subgroups via clustering in the latent space. The framework provides population-shared trajectories with subject-specific deviations for Alzheimer's progression.
-
-</details>
-<details>
-<summary><strong>Modeling Patient Care Trajectories with Transformer Hawkes Processes</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.05844">arXiv</a></summary>
-
-The paper models patient care utilization trajectories with a Transformer Hawkes Process that jointly predicts event type and time-to-event in continuous time. An imbalance-aware training strategy using inverse square-root class weighting improves sensitivity to rare clinically important events. Experiments show improved performance and insights for identifying high-risk patient populations.
 
 </details>
 <details>
@@ -1427,12 +1407,6 @@ The paper presents a Markov-chain-inspired neural network that explicitly models
 
 </details>
 <details>
-<summary><strong>Interpretable Neural Temporal Point Processes for Modelling Electronic Health Records</strong> (2024-04, arXiv). <a href="https://arxiv.org/abs/2404.08007">arXiv</a></summary>
-
-The paper presents inf2vec, an interpretable neural temporal point process that embeds event types via an influence matrix inspired by word2vec and Hawkes processes. It jointly predicts future EHR events and learns interpretable influence weights between event types, achieving superior performance over existing NTPP baselines.
-
-</details>
-<details>
 <summary><strong>De-accumulated error collaborative learning framework for predicting Alzheimer's disease progression</strong> (2024-03, Biomedical Signal Processing and Control). <a href="https://www.semanticscholar.org/paper/2479cba07b5f8db30cdedf07b9c3f39d7f469499">Semantic Scholar</a></summary>
 
 (Abstract unavailable) The paper proposes a de-accumulated error collaborative learning framework for predicting Alzheimer's disease progression, designed to mitigate error accumulation across sequential predictions on longitudinal patient data through cooperative learning among multiple predictors.
@@ -1481,12 +1455,6 @@ HMM-Boost presents a two-stage approach to state prediction when labels are spar
 
 </details>
 <details>
-<summary><strong>A semi-supervised adaptive Markov Gaussian embedding process (SAMGEP) for prediction of phenotype event times using the electronic health record</strong> (2022-10, Scientific Reports). <a href="https://pubmed.ncbi.nlm.nih.gov/36273240/">PubMed</a></summary>
-
-The authors propose SAMGEP, a semi-supervised framework that treats latent phenotype states as a binary Markov process and maps timestamped EHR features to an embedding function modeled by a state-dependent Gaussian process. SAMGEP accurately infers phenotype event times and outperforms existing methods on AUC and F1, while requiring only a modest number of hand-labeled instances and effectively exploiting the vast amount of unlabeled EHR data for risk modeling.
-
-</details>
-<details>
 <summary><strong>SurvLatent ODE : A Neural ODE based time-to-event model with competing risks for longitudinal data improves cancer-associated Venous Thromboembolism (VTE) prediction</strong> (2022-04, Machine Learning in Health Care). <a href="https://arxiv.org/abs/2204.09633">arXiv</a></summary>
 
 SurvLatent ODE introduces a neural ODE-RNN encoder that learns dynamic latent states from irregularly sampled EHR signals, then estimates flexible hazard functions for multiple competing events without prespecified shapes. The model achieves strong survival predictions on MIMIC-III for hospital mortality and outperforms the Khorana risk score for VTE risk stratification at DFCI, while providing clinically interpretable latent embeddings.
@@ -1522,21 +1490,9 @@ The paper introduces the latent hybridisation model (LHM), which combines expert
 The paper introduces a continuous-time attention mechanism tightly coupled with neural differential equations to model irregularly sampled sequential data. By attending continuously over hidden states, the method mitigates missing observations and improves representation learning, yielding superior performance on activity recognition, sentiment analysis, and mortality prediction tasks.
 
 </details>
-<details>
-<summary><strong>SAMGEP: A Novel Method for Prediction of Phenotype Event Times Using the Electronic Health Record</strong> (2021-03, medRxiv). <a href="https://doi.org/10.1101/2021.03.07.21253096">medRxiv</a></summary>
-
-SAMGEP is a semi-supervised pipeline that learns dense patient-time embeddings and fits a Markov Gaussian Process to model latent binary phenotype states, enabling predictions of phenotype event times and longitudinal trajectories. It achieves higher AUCs and F1 scores than standard classifiers in simulations and a real-world multiple sclerosis relapse prediction task, providing a foundation for population-level cumulative incidence estimation and survival analyses.
-
-</details>
 
 ### Reinforcement Learning
 
-<details>
-<summary><strong>Boosted Distributional Reinforcement Learning: Analysis and Healthcare Applications</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.04334">arXiv</a></summary>
-
-Boosted Distributional Reinforcement Learning (BDRL) optimizes agent-specific outcome distributions while enforcing comparability across similar patients, with a constrained-convex post-update projection step that aligns individuals to high-performing references. The authors provide convergence analysis and apply the method to longitudinal hypertension management across cardiovascular risk groups. BDRL improves the number and consistency of quality-adjusted life years over RL baselines.
-
-</details>
 <details>
 <summary><strong>Learning Preference-Based Objectives from Clinical Narratives for Sequential Treatment Decision-Making</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.10783">arXiv</a></summary>
 
@@ -1682,18 +1638,6 @@ The paper introduces a Multi-Channel Convolutional Neural Network (MCNN) that pr
 
 </details>
 <details>
-<summary><strong>Deep Kernel Learning for Stratifying Glaucoma Trajectories</strong> (2026-05, arXiv). <a href="https://arxiv.org/abs/2605.00708">arXiv</a></summary>
-
-The paper proposes a deep kernel learning architecture combining a Gaussian Process backend with a transformer-based feature extractor over clinical-BERT embeddings to stratify glaucoma trajectories from sparse, irregular EHRs. The learned kernel captures multimodal longitudinal structure and decouples disease progression from current severity, yielding interpretable risk-trajectory subgroups.
-
-</details>
-<details>
-<summary><strong>Bayesian Tensor-on-Tensor Varying Coefficient Model for Forecasting Alzheimer's Disease Progression</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.07764">arXiv</a></summary>
-
-The paper proposes a Bayesian tensor-on-tensor varying coefficient model with Gaussian process priors and low-rank tensor coefficients for forecasting longitudinal MRI cortical thickness. Patch-to-voxel mappings induce spatial heterogeneity, and a parallel MCMC algorithm samples voxel-specific GP atoms efficiently. The model targets nonlinear, spatially heterogeneous progression dynamics in ADNI longitudinal imaging.
-
-</details>
-<details>
 <summary><strong>CSRA: Controlled Spectral Residual Augmentation for Robust Sepsis Prediction</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.14532">arXiv</a></summary>
 
 The paper proposes CSRA, a controlled spectral residual data augmentation framework for short-window multi-system ICU time series. Variables are grouped by clinical systems and perturbed via input-adaptive residuals in the spectral domain, trained end-to-end with anchor consistency and controller regularization. The method improves robustness under short observation windows, long horizons, and limited data.
@@ -1817,12 +1761,6 @@ DITTO is a visual digital-twin platform that employs a sequential deep reinforce
 <summary><strong>TAMER: A Test-Time Adaptive MoE-Driven Framework for EHR Representation Learning</strong> (2025-01, arXiv). <a href="https://arxiv.org/abs/2501.05661">arXiv</a></summary>
 
 TAMER introduces a Mixture-of-Experts architecture combined with Test-Time Adaptation to jointly address patient heterogeneity and distribution shifts in EHR modeling. The MoE assigns domain-aware experts to latent patient subgroups while TTA enables real-time adjustment to evolving health status distributions, yielding consistent performance gains on mortality and readmission risk tasks across multiple EHR backbones.
-
-</details>
-<details>
-<summary><strong>A prediction model for healthcare time-series data with a mixture of deep mixed effect models using Gaussian processes</strong> (2023-07, Biomedical Signal Processing and Control). <a href="https://www.semanticscholar.org/paper/c6a296ba7ad8e57f8dbb1652ac062c1d4e5e0c2e">Semantic Scholar</a></summary>
-
-(Abstract unavailable) The paper proposes a prediction model for healthcare time-series data that combines a mixture of deep mixed-effects models with Gaussian processes, aiming to jointly capture population-level trends and patient-specific deviations in irregularly observed clinical measurements.
 
 </details>
 <details>
@@ -2047,12 +1985,6 @@ PhysicianBench is an execution-grounded benchmark of 100 long-horizon physician 
 <summary><strong>Investigating Trustworthiness of Nonparametric Deep Survival Models for Alzheimer's Disease Progression Analysis</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2605.04063">arXiv</a></summary>
 
 The paper conducts a fairness audit of nonparametric deep survival models for Alzheimer's progression and proposes two novel fairness metrics, Time-Dependent Concordance Impurity and Kaplan-Meier Fairness, for survival settings with sensitive attributes. It combines a systematic feature-importance analysis with bias quantification across sex, race, and education. The study contributes evaluation methodology for trustworthy progression-aware survival modeling.
-
-</details>
-<details>
-<summary><strong>LLM-Extracted Covariates for Clinical Causal Inference: Rethinking Integration Strategies</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.16763">arXiv</a></summary>
-
-The paper systematically compares seven strategies for integrating LLM-extracted free-text confounders into causal estimation pipelines using EHR data from MIMIC-IV sepsis patients. It identifies that propensity-score augmentation with LLM-derived covariates provides the largest bias reduction, while text-derived caliper matching degrades estimation. Through semi-synthetic and real-world experiments, the work characterizes when and how LLM-augmented causal inference improves treatment-effect estimation in critical care.
 
 </details>
 <details>

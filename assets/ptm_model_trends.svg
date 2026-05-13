@@ -43,22 +43,22 @@
 <circle class="dot" cx="830.0" cy="282.4" r="4.2" fill="#D55E00"/>
 <line x1="872" y1="79" x2="898" y2="79" stroke="#D55E00" stroke-width="2.8" stroke-linecap="round"/>
 <text class="legend" x="910" y="84">Graph / Hypergraph</text>
-<path class="series" d="M78.0,484.0 L228.4,484.0 L378.8,439.2 L529.2,439.2 L679.6,349.6 L830.0,215.2" stroke="#009E73"/>
+<path class="series" d="M78.0,484.0 L228.4,484.0 L378.8,439.2 L529.2,439.2 L679.6,349.6 L830.0,237.6" stroke="#009E73"/>
 <circle class="dot" cx="78.0" cy="484.0" r="4.2" fill="#009E73"/>
 <circle class="dot" cx="228.4" cy="484.0" r="4.2" fill="#009E73"/>
 <circle class="dot" cx="378.8" cy="439.2" r="4.2" fill="#009E73"/>
 <circle class="dot" cx="529.2" cy="439.2" r="4.2" fill="#009E73"/>
 <circle class="dot" cx="679.6" cy="349.6" r="4.2" fill="#009E73"/>
-<circle class="dot" cx="830.0" cy="215.2" r="4.2" fill="#009E73"/>
+<circle class="dot" cx="830.0" cy="237.6" r="4.2" fill="#009E73"/>
 <line x1="872" y1="108" x2="898" y2="108" stroke="#009E73" stroke-width="2.8" stroke-linecap="round"/>
 <text class="legend" x="910" y="113">Model Benchmark</text>
-<path class="series" d="M78.0,349.6 L228.4,416.8 L378.8,349.6 L529.2,349.6 L679.6,327.2 L830.0,148.0" stroke="#CC79A7"/>
-<circle class="dot" cx="78.0" cy="349.6" r="4.2" fill="#CC79A7"/>
-<circle class="dot" cx="228.4" cy="416.8" r="4.2" fill="#CC79A7"/>
+<path class="series" d="M78.0,372.0 L228.4,439.2 L378.8,349.6 L529.2,372.0 L679.6,327.2 L830.0,192.8" stroke="#CC79A7"/>
+<circle class="dot" cx="78.0" cy="372.0" r="4.2" fill="#CC79A7"/>
+<circle class="dot" cx="228.4" cy="439.2" r="4.2" fill="#CC79A7"/>
 <circle class="dot" cx="378.8" cy="349.6" r="4.2" fill="#CC79A7"/>
-<circle class="dot" cx="529.2" cy="349.6" r="4.2" fill="#CC79A7"/>
+<circle class="dot" cx="529.2" cy="372.0" r="4.2" fill="#CC79A7"/>
 <circle class="dot" cx="679.6" cy="327.2" r="4.2" fill="#CC79A7"/>
-<circle class="dot" cx="830.0" cy="148.0" r="4.2" fill="#CC79A7"/>
+<circle class="dot" cx="830.0" cy="192.8" r="4.2" fill="#CC79A7"/>
 <line x1="872" y1="137" x2="898" y2="137" stroke="#CC79A7" stroke-width="2.8" stroke-linecap="round"/>
 <text class="legend" x="910" y="142">ODE / Continuous-Time / State-Space</text>
 <path class="series" d="M78.0,484.0 L228.4,461.6 L378.8,416.8 L529.2,439.2 L679.6,416.8 L830.0,327.2" stroke="#E69F00"/>
@@ -70,9 +70,9 @@
 <circle class="dot" cx="830.0" cy="327.2" r="4.2" fill="#E69F00"/>
 <line x1="872" y1="166" x2="898" y2="166" stroke="#E69F00" stroke-width="2.8" stroke-linecap="round"/>
 <text class="legend" x="910" y="171">Representation / Contrastive Learning</text>
-<path class="series" d="M78.0,304.8 L228.4,192.8 L378.8,103.2 L529.2,125.6 L679.6,58.4 L830.0,80.8" stroke="#56B4E9"/>
+<path class="series" d="M78.0,304.8 L228.4,215.2 L378.8,103.2 L529.2,125.6 L679.6,58.4 L830.0,80.8" stroke="#56B4E9"/>
 <circle class="dot" cx="78.0" cy="304.8" r="4.2" fill="#56B4E9"/>
-<circle class="dot" cx="228.4" cy="192.8" r="4.2" fill="#56B4E9"/>
+<circle class="dot" cx="228.4" cy="215.2" r="4.2" fill="#56B4E9"/>
 <circle class="dot" cx="378.8" cy="103.2" r="4.2" fill="#56B4E9"/>
 <circle class="dot" cx="529.2" cy="125.6" r="4.2" fill="#56B4E9"/>
 <circle class="dot" cx="679.6" cy="58.4" r="4.2" fill="#56B4E9"/>
