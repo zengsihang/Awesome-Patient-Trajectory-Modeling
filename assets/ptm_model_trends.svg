@@ -39,174 +39,83 @@
 <line x1="890" y1="50" x2="916" y2="50" stroke="#0072B2" stroke-width="2.8" stroke-linecap="round"/>
 <text class="legend" x="928" y="55">Transformer / Attention-based Encoder (90)</text>
 </g>
-<g class="series-group" tabindex="0" role="listitem" aria-label="Graph / Hypergraph; 47 papers total">
-<title>Graph / Hypergraph: 47 papers total</title>
-<path class="hit" d="M78.0,416.8 L232.4,461.6 L386.8,237.6 L541.2,372.0 L695.6,80.8 L850.0,282.4"/>
-<path class="series" d="M78.0,416.8 L232.4,461.6 L386.8,237.6 L541.2,372.0 L695.6,80.8 L850.0,282.4" stroke="#D55E00"/>
-<circle class="dot" cx="78.0" cy="416.8" r="4.2" fill="#D55E00"/>
-<circle class="dot" cx="232.4" cy="461.6" r="4.2" fill="#D55E00"/>
-<circle class="dot" cx="386.8" cy="237.6" r="4.2" fill="#D55E00"/>
-<circle class="dot" cx="541.2" cy="372.0" r="4.2" fill="#D55E00"/>
-<circle class="dot" cx="695.6" cy="80.8" r="4.2" fill="#D55E00"/>
-<circle class="dot" cx="850.0" cy="282.4" r="4.2" fill="#D55E00"/>
-<line x1="890" y1="79" x2="916" y2="79" stroke="#D55E00" stroke-width="2.8" stroke-linecap="round"/>
-<text class="legend" x="928" y="84">Graph / Hypergraph (47)</text>
-</g>
 <g class="series-group" tabindex="0" role="listitem" aria-label="ODE / Continuous-Time / State-Space; 38 papers total">
 <title>ODE / Continuous-Time / State-Space: 38 papers total</title>
 <path class="hit" d="M78.0,372.0 L232.4,439.2 L386.8,349.6 L541.2,372.0 L695.6,327.2 L850.0,192.8"/>
-<path class="series" d="M78.0,372.0 L232.4,439.2 L386.8,349.6 L541.2,372.0 L695.6,327.2 L850.0,192.8" stroke="#009E73"/>
-<circle class="dot" cx="78.0" cy="372.0" r="4.2" fill="#009E73"/>
-<circle class="dot" cx="232.4" cy="439.2" r="4.2" fill="#009E73"/>
-<circle class="dot" cx="386.8" cy="349.6" r="4.2" fill="#009E73"/>
-<circle class="dot" cx="541.2" cy="372.0" r="4.2" fill="#009E73"/>
-<circle class="dot" cx="695.6" cy="327.2" r="4.2" fill="#009E73"/>
-<circle class="dot" cx="850.0" cy="192.8" r="4.2" fill="#009E73"/>
-<line x1="890" y1="108" x2="916" y2="108" stroke="#009E73" stroke-width="2.8" stroke-linecap="round"/>
-<text class="legend" x="928" y="113">ODE / Continuous-Time / State-Space (38)</text>
-</g>
-<g class="series-group" tabindex="0" role="listitem" aria-label="Other Architecture; 29 papers total">
-<title>Other Architecture: 29 papers total</title>
-<path class="hit" d="M78.0,394.4 L232.4,416.8 L386.8,484.0 L541.2,484.0 L695.6,349.6 L850.0,125.6"/>
-<path class="series" d="M78.0,394.4 L232.4,416.8 L386.8,484.0 L541.2,484.0 L695.6,349.6 L850.0,125.6" stroke="#CC79A7"/>
-<circle class="dot" cx="78.0" cy="394.4" r="4.2" fill="#CC79A7"/>
-<circle class="dot" cx="232.4" cy="416.8" r="4.2" fill="#CC79A7"/>
-<circle class="dot" cx="386.8" cy="484.0" r="4.2" fill="#CC79A7"/>
-<circle class="dot" cx="541.2" cy="484.0" r="4.2" fill="#CC79A7"/>
-<circle class="dot" cx="695.6" cy="349.6" r="4.2" fill="#CC79A7"/>
-<circle class="dot" cx="850.0" cy="125.6" r="4.2" fill="#CC79A7"/>
-<line x1="890" y1="137" x2="916" y2="137" stroke="#CC79A7" stroke-width="2.8" stroke-linecap="round"/>
-<text class="legend" x="928" y="142">Other Architecture (29)</text>
-</g>
-<g class="series-group" tabindex="0" role="listitem" aria-label="Foundation / LLM; 28 papers total">
-<title>Foundation / LLM: 28 papers total</title>
-<path class="hit" d="M78.0,484.0 L232.4,484.0 L386.8,439.2 L541.2,372.0 L695.6,215.2 L850.0,282.4"/>
-<path class="series" d="M78.0,484.0 L232.4,484.0 L386.8,439.2 L541.2,372.0 L695.6,215.2 L850.0,282.4" stroke="#E69F00"/>
-<circle class="dot" cx="78.0" cy="484.0" r="4.2" fill="#E69F00"/>
-<circle class="dot" cx="232.4" cy="484.0" r="4.2" fill="#E69F00"/>
-<circle class="dot" cx="386.8" cy="439.2" r="4.2" fill="#E69F00"/>
-<circle class="dot" cx="541.2" cy="372.0" r="4.2" fill="#E69F00"/>
-<circle class="dot" cx="695.6" cy="215.2" r="4.2" fill="#E69F00"/>
-<circle class="dot" cx="850.0" cy="282.4" r="4.2" fill="#E69F00"/>
-<line x1="890" y1="166" x2="916" y2="166" stroke="#E69F00" stroke-width="2.8" stroke-linecap="round"/>
-<text class="legend" x="928" y="171">Foundation / LLM (28)</text>
-</g>
-<g class="series-group" tabindex="0" role="listitem" aria-label="Transformer Decoder / Generative LM; 24 papers total">
-<title>Transformer Decoder / Generative LM: 24 papers total</title>
-<path class="hit" d="M78.0,484.0 L232.4,439.2 L386.8,439.2 L541.2,349.6 L695.6,304.8 L850.0,349.6"/>
-<path class="series" d="M78.0,484.0 L232.4,439.2 L386.8,439.2 L541.2,349.6 L695.6,304.8 L850.0,349.6" stroke="#56B4E9"/>
-<circle class="dot" cx="78.0" cy="484.0" r="4.2" fill="#56B4E9"/>
-<circle class="dot" cx="232.4" cy="439.2" r="4.2" fill="#56B4E9"/>
-<circle class="dot" cx="386.8" cy="439.2" r="4.2" fill="#56B4E9"/>
-<circle class="dot" cx="541.2" cy="349.6" r="4.2" fill="#56B4E9"/>
-<circle class="dot" cx="695.6" cy="304.8" r="4.2" fill="#56B4E9"/>
-<circle class="dot" cx="850.0" cy="349.6" r="4.2" fill="#56B4E9"/>
-<line x1="890" y1="195" x2="916" y2="195" stroke="#56B4E9" stroke-width="2.8" stroke-linecap="round"/>
-<text class="legend" x="928" y="200">Transformer Decoder / Generative LM (24)</text>
+<path class="series" d="M78.0,372.0 L232.4,439.2 L386.8,349.6 L541.2,372.0 L695.6,327.2 L850.0,192.8" stroke="#D55E00"/>
+<circle class="dot" cx="78.0" cy="372.0" r="4.2" fill="#D55E00"/>
+<circle class="dot" cx="232.4" cy="439.2" r="4.2" fill="#D55E00"/>
+<circle class="dot" cx="386.8" cy="349.6" r="4.2" fill="#D55E00"/>
+<circle class="dot" cx="541.2" cy="372.0" r="4.2" fill="#D55E00"/>
+<circle class="dot" cx="695.6" cy="327.2" r="4.2" fill="#D55E00"/>
+<circle class="dot" cx="850.0" cy="192.8" r="4.2" fill="#D55E00"/>
+<line x1="890" y1="79" x2="916" y2="79" stroke="#D55E00" stroke-width="2.8" stroke-linecap="round"/>
+<text class="legend" x="928" y="84">ODE / Continuous-Time / State-Space (38)</text>
 </g>
 <g class="series-group" tabindex="0" role="listitem" aria-label="Model Benchmark; 21 papers total">
 <title>Model Benchmark: 21 papers total</title>
 <path class="hit" d="M78.0,484.0 L232.4,484.0 L386.8,439.2 L541.2,439.2 L695.6,349.6 L850.0,237.6"/>
-<path class="series" d="M78.0,484.0 L232.4,484.0 L386.8,439.2 L541.2,439.2 L695.6,349.6 L850.0,237.6" stroke="#4D4D4D"/>
-<circle class="dot" cx="78.0" cy="484.0" r="4.2" fill="#4D4D4D"/>
-<circle class="dot" cx="232.4" cy="484.0" r="4.2" fill="#4D4D4D"/>
-<circle class="dot" cx="386.8" cy="439.2" r="4.2" fill="#4D4D4D"/>
-<circle class="dot" cx="541.2" cy="439.2" r="4.2" fill="#4D4D4D"/>
-<circle class="dot" cx="695.6" cy="349.6" r="4.2" fill="#4D4D4D"/>
-<circle class="dot" cx="850.0" cy="237.6" r="4.2" fill="#4D4D4D"/>
-<line x1="890" y1="224" x2="916" y2="224" stroke="#4D4D4D" stroke-width="2.8" stroke-linecap="round"/>
-<text class="legend" x="928" y="229">Model Benchmark (21)</text>
+<path class="series" d="M78.0,484.0 L232.4,484.0 L386.8,439.2 L541.2,439.2 L695.6,349.6 L850.0,237.6" stroke="#009E73"/>
+<circle class="dot" cx="78.0" cy="484.0" r="4.2" fill="#009E73"/>
+<circle class="dot" cx="232.4" cy="484.0" r="4.2" fill="#009E73"/>
+<circle class="dot" cx="386.8" cy="439.2" r="4.2" fill="#009E73"/>
+<circle class="dot" cx="541.2" cy="439.2" r="4.2" fill="#009E73"/>
+<circle class="dot" cx="695.6" cy="349.6" r="4.2" fill="#009E73"/>
+<circle class="dot" cx="850.0" cy="237.6" r="4.2" fill="#009E73"/>
+<line x1="890" y1="108" x2="916" y2="108" stroke="#009E73" stroke-width="2.8" stroke-linecap="round"/>
+<text class="legend" x="928" y="113">Model Benchmark (21)</text>
+</g>
+<g class="series-group" tabindex="0" role="listitem" aria-label="Foundation / LLM; 28 papers total">
+<title>Foundation / LLM: 28 papers total</title>
+<path class="hit" d="M78.0,484.0 L232.4,484.0 L386.8,439.2 L541.2,372.0 L695.6,215.2 L850.0,282.4"/>
+<path class="series" d="M78.0,484.0 L232.4,484.0 L386.8,439.2 L541.2,372.0 L695.6,215.2 L850.0,282.4" stroke="#CC79A7"/>
+<circle class="dot" cx="78.0" cy="484.0" r="4.2" fill="#CC79A7"/>
+<circle class="dot" cx="232.4" cy="484.0" r="4.2" fill="#CC79A7"/>
+<circle class="dot" cx="386.8" cy="439.2" r="4.2" fill="#CC79A7"/>
+<circle class="dot" cx="541.2" cy="372.0" r="4.2" fill="#CC79A7"/>
+<circle class="dot" cx="695.6" cy="215.2" r="4.2" fill="#CC79A7"/>
+<circle class="dot" cx="850.0" cy="282.4" r="4.2" fill="#CC79A7"/>
+<line x1="890" y1="137" x2="916" y2="137" stroke="#CC79A7" stroke-width="2.8" stroke-linecap="round"/>
+<text class="legend" x="928" y="142">Foundation / LLM (28)</text>
+</g>
+<g class="series-group" tabindex="0" role="listitem" aria-label="Graph / Hypergraph; 47 papers total">
+<title>Graph / Hypergraph: 47 papers total</title>
+<path class="hit" d="M78.0,416.8 L232.4,461.6 L386.8,237.6 L541.2,372.0 L695.6,80.8 L850.0,282.4"/>
+<path class="series" d="M78.0,416.8 L232.4,461.6 L386.8,237.6 L541.2,372.0 L695.6,80.8 L850.0,282.4" stroke="#E69F00"/>
+<circle class="dot" cx="78.0" cy="416.8" r="4.2" fill="#E69F00"/>
+<circle class="dot" cx="232.4" cy="461.6" r="4.2" fill="#E69F00"/>
+<circle class="dot" cx="386.8" cy="237.6" r="4.2" fill="#E69F00"/>
+<circle class="dot" cx="541.2" cy="372.0" r="4.2" fill="#E69F00"/>
+<circle class="dot" cx="695.6" cy="80.8" r="4.2" fill="#E69F00"/>
+<circle class="dot" cx="850.0" cy="282.4" r="4.2" fill="#E69F00"/>
+<line x1="890" y1="166" x2="916" y2="166" stroke="#E69F00" stroke-width="2.8" stroke-linecap="round"/>
+<text class="legend" x="928" y="171">Graph / Hypergraph (47)</text>
 </g>
 <g class="series-group" tabindex="0" role="listitem" aria-label="Representation / Contrastive Learning; 16 papers total">
 <title>Representation / Contrastive Learning: 16 papers total</title>
 <path class="hit" d="M78.0,484.0 L232.4,461.6 L386.8,416.8 L541.2,439.2 L695.6,416.8 L850.0,327.2"/>
-<path class="series" d="M78.0,484.0 L232.4,461.6 L386.8,416.8 L541.2,439.2 L695.6,416.8 L850.0,327.2" stroke="#332288"/>
-<circle class="dot" cx="78.0" cy="484.0" r="4.2" fill="#332288"/>
-<circle class="dot" cx="232.4" cy="461.6" r="4.2" fill="#332288"/>
-<circle class="dot" cx="386.8" cy="416.8" r="4.2" fill="#332288"/>
-<circle class="dot" cx="541.2" cy="439.2" r="4.2" fill="#332288"/>
-<circle class="dot" cx="695.6" cy="416.8" r="4.2" fill="#332288"/>
-<circle class="dot" cx="850.0" cy="327.2" r="4.2" fill="#332288"/>
-<line x1="890" y1="253" x2="916" y2="253" stroke="#332288" stroke-width="2.8" stroke-linecap="round"/>
-<text class="legend" x="928" y="258">Representation / Contrastive Learning (16)</text>
-</g>
-<g class="series-group" tabindex="0" role="listitem" aria-label="Diffusion / Generative Models; 9 papers total">
-<title>Diffusion / Generative Models: 9 papers total</title>
-<path class="hit" d="M78.0,484.0 L232.4,484.0 L386.8,439.2 L541.2,416.8 L695.6,484.0 L850.0,394.4"/>
-<path class="series" d="M78.0,484.0 L232.4,484.0 L386.8,439.2 L541.2,416.8 L695.6,484.0 L850.0,394.4" stroke="#88CCEE"/>
-<circle class="dot" cx="78.0" cy="484.0" r="4.2" fill="#88CCEE"/>
-<circle class="dot" cx="232.4" cy="484.0" r="4.2" fill="#88CCEE"/>
-<circle class="dot" cx="386.8" cy="439.2" r="4.2" fill="#88CCEE"/>
-<circle class="dot" cx="541.2" cy="416.8" r="4.2" fill="#88CCEE"/>
-<circle class="dot" cx="695.6" cy="484.0" r="4.2" fill="#88CCEE"/>
-<circle class="dot" cx="850.0" cy="394.4" r="4.2" fill="#88CCEE"/>
-<line x1="890" y1="282" x2="916" y2="282" stroke="#88CCEE" stroke-width="2.8" stroke-linecap="round"/>
-<text class="legend" x="928" y="287">Diffusion / Generative Models (9)</text>
-</g>
-<g class="series-group" tabindex="0" role="listitem" aria-label="RNN-based Model; 8 papers total">
-<title>RNN-based Model: 8 papers total</title>
-<path class="hit" d="M78.0,439.2 L232.4,416.8 L386.8,461.6 L541.2,461.6 L695.6,484.0 L850.0,461.6"/>
-<path class="series" d="M78.0,439.2 L232.4,416.8 L386.8,461.6 L541.2,461.6 L695.6,484.0 L850.0,461.6" stroke="#44AA99"/>
-<circle class="dot" cx="78.0" cy="439.2" r="4.2" fill="#44AA99"/>
-<circle class="dot" cx="232.4" cy="416.8" r="4.2" fill="#44AA99"/>
-<circle class="dot" cx="386.8" cy="461.6" r="4.2" fill="#44AA99"/>
-<circle class="dot" cx="541.2" cy="461.6" r="4.2" fill="#44AA99"/>
-<circle class="dot" cx="695.6" cy="484.0" r="4.2" fill="#44AA99"/>
-<circle class="dot" cx="850.0" cy="461.6" r="4.2" fill="#44AA99"/>
-<line x1="890" y1="311" x2="916" y2="311" stroke="#44AA99" stroke-width="2.8" stroke-linecap="round"/>
-<text class="legend" x="928" y="316">RNN-based Model (8)</text>
+<path class="series" d="M78.0,484.0 L232.4,461.6 L386.8,416.8 L541.2,439.2 L695.6,416.8 L850.0,327.2" stroke="#56B4E9"/>
+<circle class="dot" cx="78.0" cy="484.0" r="4.2" fill="#56B4E9"/>
+<circle class="dot" cx="232.4" cy="461.6" r="4.2" fill="#56B4E9"/>
+<circle class="dot" cx="386.8" cy="416.8" r="4.2" fill="#56B4E9"/>
+<circle class="dot" cx="541.2" cy="439.2" r="4.2" fill="#56B4E9"/>
+<circle class="dot" cx="695.6" cy="416.8" r="4.2" fill="#56B4E9"/>
+<circle class="dot" cx="850.0" cy="327.2" r="4.2" fill="#56B4E9"/>
+<line x1="890" y1="195" x2="916" y2="195" stroke="#56B4E9" stroke-width="2.8" stroke-linecap="round"/>
+<text class="legend" x="928" y="200">Representation / Contrastive Learning (16)</text>
 </g>
 <g class="series-group" tabindex="0" role="listitem" aria-label="Agentic System; 7 papers total">
 <title>Agentic System: 7 papers total</title>
 <path class="hit" d="M78.0,484.0 L232.4,484.0 L386.8,484.0 L541.2,484.0 L695.6,439.2 L850.0,372.0"/>
-<path class="series" d="M78.0,484.0 L232.4,484.0 L386.8,484.0 L541.2,484.0 L695.6,439.2 L850.0,372.0" stroke="#117733"/>
-<circle class="dot" cx="78.0" cy="484.0" r="4.2" fill="#117733"/>
-<circle class="dot" cx="232.4" cy="484.0" r="4.2" fill="#117733"/>
-<circle class="dot" cx="386.8" cy="484.0" r="4.2" fill="#117733"/>
-<circle class="dot" cx="541.2" cy="484.0" r="4.2" fill="#117733"/>
-<circle class="dot" cx="695.6" cy="439.2" r="4.2" fill="#117733"/>
-<circle class="dot" cx="850.0" cy="372.0" r="4.2" fill="#117733"/>
-<line x1="890" y1="340" x2="916" y2="340" stroke="#117733" stroke-width="2.8" stroke-linecap="round"/>
-<text class="legend" x="928" y="345">Agentic System (7)</text>
-</g>
-<g class="series-group" tabindex="0" role="listitem" aria-label="Encoder-Decoder / Seq2Seq; 6 papers total">
-<title>Encoder-Decoder / Seq2Seq: 6 papers total</title>
-<path class="hit" d="M78.0,461.6 L232.4,439.2 L386.8,461.6 L541.2,461.6 L695.6,461.6 L850.0,484.0"/>
-<path class="series" d="M78.0,461.6 L232.4,439.2 L386.8,461.6 L541.2,461.6 L695.6,461.6 L850.0,484.0" stroke="#999933"/>
-<circle class="dot" cx="78.0" cy="461.6" r="4.2" fill="#999933"/>
-<circle class="dot" cx="232.4" cy="439.2" r="4.2" fill="#999933"/>
-<circle class="dot" cx="386.8" cy="461.6" r="4.2" fill="#999933"/>
-<circle class="dot" cx="541.2" cy="461.6" r="4.2" fill="#999933"/>
-<circle class="dot" cx="695.6" cy="461.6" r="4.2" fill="#999933"/>
-<circle class="dot" cx="850.0" cy="484.0" r="4.2" fill="#999933"/>
-<line x1="890" y1="369" x2="916" y2="369" stroke="#999933" stroke-width="2.8" stroke-linecap="round"/>
-<text class="legend" x="928" y="374">Encoder-Decoder / Seq2Seq (6)</text>
-</g>
-<g class="series-group" tabindex="0" role="listitem" aria-label="Reinforcement Learning; 6 papers total">
-<title>Reinforcement Learning: 6 papers total</title>
-<path class="hit" d="M78.0,484.0 L232.4,461.6 L386.8,461.6 L541.2,461.6 L695.6,484.0 L850.0,416.8"/>
-<path class="series" d="M78.0,484.0 L232.4,461.6 L386.8,461.6 L541.2,461.6 L695.6,484.0 L850.0,416.8" stroke="#DDCC77"/>
-<circle class="dot" cx="78.0" cy="484.0" r="4.2" fill="#DDCC77"/>
-<circle class="dot" cx="232.4" cy="461.6" r="4.2" fill="#DDCC77"/>
-<circle class="dot" cx="386.8" cy="461.6" r="4.2" fill="#DDCC77"/>
-<circle class="dot" cx="541.2" cy="461.6" r="4.2" fill="#DDCC77"/>
-<circle class="dot" cx="695.6" cy="484.0" r="4.2" fill="#DDCC77"/>
-<circle class="dot" cx="850.0" cy="416.8" r="4.2" fill="#DDCC77"/>
-<line x1="890" y1="398" x2="916" y2="398" stroke="#DDCC77" stroke-width="2.8" stroke-linecap="round"/>
-<text class="legend" x="928" y="403">Reinforcement Learning (6)</text>
-</g>
-<g class="series-group" tabindex="0" role="listitem" aria-label="Scaling / Pretraining Analysis; 6 papers total">
-<title>Scaling / Pretraining Analysis: 6 papers total</title>
-<path class="hit" d="M78.0,484.0 L232.4,484.0 L386.8,484.0 L541.2,484.0 L695.6,416.8 L850.0,416.8"/>
-<path class="series" d="M78.0,484.0 L232.4,484.0 L386.8,484.0 L541.2,484.0 L695.6,416.8 L850.0,416.8" stroke="#CC6677"/>
-<circle class="dot" cx="78.0" cy="484.0" r="4.2" fill="#CC6677"/>
-<circle class="dot" cx="232.4" cy="484.0" r="4.2" fill="#CC6677"/>
-<circle class="dot" cx="386.8" cy="484.0" r="4.2" fill="#CC6677"/>
-<circle class="dot" cx="541.2" cy="484.0" r="4.2" fill="#CC6677"/>
-<circle class="dot" cx="695.6" cy="416.8" r="4.2" fill="#CC6677"/>
-<circle class="dot" cx="850.0" cy="416.8" r="4.2" fill="#CC6677"/>
-<line x1="890" y1="427" x2="916" y2="427" stroke="#CC6677" stroke-width="2.8" stroke-linecap="round"/>
-<text class="legend" x="928" y="432">Scaling / Pretraining Analysis (6)</text>
+<path class="series" d="M78.0,484.0 L232.4,484.0 L386.8,484.0 L541.2,484.0 L695.6,439.2 L850.0,372.0" stroke="#4D4D4D"/>
+<circle class="dot" cx="78.0" cy="484.0" r="4.2" fill="#4D4D4D"/>
+<circle class="dot" cx="232.4" cy="484.0" r="4.2" fill="#4D4D4D"/>
+<circle class="dot" cx="386.8" cy="484.0" r="4.2" fill="#4D4D4D"/>
+<circle class="dot" cx="541.2" cy="484.0" r="4.2" fill="#4D4D4D"/>
+<circle class="dot" cx="695.6" cy="439.2" r="4.2" fill="#4D4D4D"/>
+<circle class="dot" cx="850.0" cy="372.0" r="4.2" fill="#4D4D4D"/>
+<line x1="890" y1="224" x2="916" y2="224" stroke="#4D4D4D" stroke-width="2.8" stroke-linecap="round"/>
+<text class="legend" x="928" y="229">Agentic System (7)</text>
 </g>
 </g>
 </svg>
