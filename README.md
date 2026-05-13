@@ -4,7 +4,8 @@
 ![Curated](https://img.shields.io/badge/curated-literature-2f855a)
 ![Focus](https://img.shields.io/badge/focus-patient%20trajectory%20modeling-2454A6)
 
-The paper list is maintained by Sihang Zeng, Zixuan Yu, and Zhaoyi Sun
+The paper list is maintained by Sihang Zeng, Zixuan Yu, and Zhaoyi Sun.
+
 A curated bibliography of patient trajectory modeling (PTM), covering longitudinal EHR models, clinical event-stream foundation models, trajectory simulation, temporal representation learning, and benchmark or analysis studies.
 
 ![Trend of PTM model categories](assets/ptm_model_trends.svg)
