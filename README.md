@@ -33,12 +33,6 @@ A curated bibliography of patient trajectory modeling (PTM), covering longitudin
 ### Foundation / LLM
 
 <details>
-<summary><strong>ReMedi: Reasoner for Medical Clinical Prediction</strong> (2026-05, arXiv). <a href="https://arxiv.org/abs/2605.01474">arXiv</a></summary>
-
-ReMedi is an LLM fine-tuning framework for EHR outcome prediction that constructs rationale-answer pairs through a challenging-sample regeneration mechanism using ground-truth outcomes as hints. The rationale-answer pairs feed both supervised fine-tuning and preference tuning, with ground-truth outcomes integrated into the preference data construction loop. The approach yields large F1 gains over LLM baselines on multiple EHR prediction tasks.
-
-</details>
-<details>
 <summary><strong>A multimodal and temporal foundation model for virtual patient representations at healthcare system scale</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.18570">arXiv</a></summary>
 
 Apollo is a multimodal temporal foundation model trained on 25 billion longitudinal records from 7.2 million patients spanning 28 medical modalities and 12 specialties, building a unified virtual patient representation space over 100 thousand medical concepts. It is evaluated on 322 prognosis and retrieval tasks covering new-disease onset, disease progression, treatment response, adverse events, and hospital operations, plus semantic similarity search. The work establishes a foundation model spanning entire patient care journeys.
@@ -54,12 +48,6 @@ EviCare proposes an in-context reasoning framework that fuses deep-model candida
 <summary><strong>FeatEHR-LLM: Leveraging Large Language Models for Feature Engineering in Electronic Health Records</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.22534">arXiv</a></summary>
 
 The paper presents FeatEHR-LLM, a framework that uses LLMs to generate clinically meaningful tabular features from irregularly sampled EHR time series. The LLM operates only on schemas and task descriptions and uses tool-augmented generation with specialized routines for irregular temporal data. An iterative validation-in-the-loop pipeline supports univariate and multivariate features and improves AUROC across ICU prediction tasks.
-
-</details>
-<details>
-<summary><strong>GraphWalker: Graph-Guided In-Context Learning for Clinical Reasoning on Electronic Health Records</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.06684">arXiv</a></summary>
-
-GraphWalker proposes a principled demonstration selection framework for EHR-focused in-context learning that fuses data-driven and LLM-estimated information signals, incorporates cohort discovery, and uses a lazy-greedy search with frontier expansion to mitigate diminishing marginal returns. The method consistently outperforms state-of-the-art ICL baselines on real-world EHR benchmarks. The work targets cohort-aware demonstration aggregation for clinical reasoning.
 
 </details>
 <details>
@@ -105,12 +93,6 @@ The paper proposes PaReGTA, an LLM-based EHR encoding pipeline that converts lon
 
 </details>
 <details>
-<summary><strong>AnyECG: Evolved ECG Foundation Model for Holistic Health Profiling</strong> (2026-01, arXiv). <a href="https://arxiv.org/abs/2601.10748">arXiv</a></summary>
-
-The paper introduces AnyECG, an ECG foundation model fine-tuned from ECGFounder on 13.3 million ECGs from 2.98 million patients for holistic health profiling. Evaluated on external cohorts and a 10-year longitudinal cohort, AnyECG predicts current diagnoses, future disease onset, and comorbidity patterns across 1172 conditions, achieving AUROC > 0.7 on 306 of them.
-
-</details>
-<details>
 <summary><strong>EHR-RAG: Bridging Long-Horizon Structured Electronic Health Records and Large Language Models via Enhanced Retrieval-Augmented Generation</strong> (2026-01, arXiv). <a href="https://arxiv.org/abs/2601.21340">arXiv</a></summary>
 
 The paper proposes EHR-RAG, a retrieval-augmented framework for long-horizon structured EHRs that introduces event- and time-aware hybrid retrieval, adaptive iterative retrieval, and dual-path factual/counterfactual reasoning. Across four longitudinal clinical prediction tasks, EHR-RAG outperforms the strongest LLM baselines with a 10.76% average Macro-F1 improvement.
@@ -132,12 +114,6 @@ The paper proposes a multimodal foundation model that jointly represents electro
 <summary><strong>NEST: Nested Event Stream Transformer for Sequences of Multisets</strong> (2026-01, arXiv). <a href="https://arxiv.org/abs/2602.00520">arXiv</a></summary>
 
 The paper presents NEST, a foundation model for event streams structured as sequences of multisets, which preserves the visit-level hierarchy of EHR events and introduces Masked Set Modeling for set-level representation learning. NEST improves pretraining efficiency and downstream performance on real-world clinical encounter data.
-
-</details>
-<details>
-<summary><strong>ReToP: Learning to Rewrite Electronic Health Records for Clinical Prediction</strong> (2026-01, arXiv). <a href="https://arxiv.org/abs/2601.19286">arXiv</a></summary>
-
-The paper introduces ReToP, an LLM-based framework that jointly trains an EHR rewriter and a clinical predictor end-to-end, aligning rewrites with prediction objectives via a Classifier Supervised Contribution score. ReToP outperforms strong baselines on three clinical prediction tasks on MIMIC-IV and generalizes to unseen datasets with minimal fine-tuning.
 
 </details>
 <details>
@@ -282,12 +258,6 @@ The paper introduces a Dual-Stream Memory Architecture for longitudinal LLM heal
 
 </details>
 <details>
-<summary><strong>Thinking Like a Clinician: A Cognitive AI Agent for Clinical Diagnosis via Panoramic Profiling and Adversarial Debate</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.23605">arXiv</a></summary>
-
-The paper proposes DxChain, a chain-based clinical reasoning agent that mirrors a clinician's cognitive trajectory through Memory Anchoring, Navigation, and Verification phases. It introduces a Profile-Then-Plan paradigm, a Medical Tree-of-Thoughts planning algorithm, and an Angel-Devil adversarial debate verification procedure. DxChain achieves state-of-the-art diagnostic accuracy and logical consistency on MIMIC-IV-Ext benchmarks.
-
-</details>
-<details>
 <summary><strong>TrajOnco: a multi-agent framework for temporal reasoning over longitudinal EHR for multi-cancer early detection</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.10386">arXiv</a></summary>
 
 The paper presents TrajOnco, a training-free multi-agent LLM framework that performs temporal reasoning over longitudinal EHRs for multi-cancer early detection. A chain-of-agents architecture with long-term memory produces patient-level summaries, evidence-linked rationales, and risk scores in zero-shot. The multi-agent design enables strong temporal reasoning even with smaller-capacity LLM backbones.
@@ -303,18 +273,6 @@ LDTL formulates sequential clinical diagnosis as latent trajectory learning with
 <summary><strong>Autonomous Agent-Orchestrated Digital Twins (AADT): Leveraging the OpenClaw Framework for State Synchronization in Rare Genetic Disorders</strong> (2026-03, arXiv). <a href="https://arxiv.org/abs/2603.27104">arXiv</a></summary>
 
 AADT is an autonomous agent-orchestrated digital twin framework in which OpenClaw's heartbeat mechanism and modular Agent Skills continuously monitor patient-reported phenotypes and external variant databases, then trigger workflows for ingestion, normalization, and state updates. Two rare-disease case studies demonstrate variant reinterpretation and longitudinal phenotype tracking, showing how agent orchestration keeps patient state synchronized with evolving genomic knowledge.
-
-</details>
-<details>
-<summary><strong>EmulatRx: Empowering Clinical Trial Design with Agentic Intelligence and Real World Data</strong> (2026-03, medRxiv). <a href="https://www.medrxiv.org/content/10.1101/2025.04.17.25326033v2">medRxiv</a></summary>
-
-EmulatRx is an agentic framework in which multiple role-specialized agents iteratively converse to derive real-world evidence from EHR data and refine clinical trial protocols. The system is evaluated on acute diseases using MIMIC-IV and on chronic diseases using the INSIGHT Network, demonstrating accelerated clinical trial design across both acute and chronic patient cohorts.
-
-</details>
-<details>
-<summary><strong>HeartAgent: An Autonomous Agent System for Explainable Differential Diagnosis in Cardiology</strong> (2026-03, arXiv). <a href="https://arxiv.org/abs/2603.10764">arXiv</a></summary>
-
-HeartAgent is a cardiology-specific multi-agent system that orchestrates specialized sub-agents over curated tools and data to perform differential diagnosis with transparent reasoning trajectories and verifiable references. On MIMIC and a private EHR cohort it improves top-3 diagnostic accuracy by 36 and 20 percent over comparators. Clinician-AI evaluation shows large gains in both accuracy and explanatory quality versus unaided experts.
 
 </details>
 <details>
@@ -456,12 +414,6 @@ The paper introduces a time-aware attention-based deep representation learning f
 <summary><strong>Capture Timing-Attention of Events in Clinical Time Series</strong> (2026-02, arXiv). <a href="https://arxiv.org/abs/2602.10385">arXiv</a></summary>
 
 The paper introduces LITT, a transformer architecture that aligns patient-specific event sequences on a virtual relative timeline, enabling event-timing-focused attention and treating timing as a computable dimension. LITT is validated on EHR data from 3,276 breast cancer patients for cardiotoxicity-induced heart disease onset prediction and outperforms state-of-the-art survival baselines on public datasets.
-
-</details>
-<details>
-<summary><strong>Imputation of Unknown Missingness in Sparse Electronic Health Records</strong> (2026-02, arXiv). <a href="https://arxiv.org/abs/2602.20442">arXiv</a></summary>
-
-The paper develops a transformer-based denoising network that adaptively thresholds outputs to impute unknown-unknown missing values in sparse binary EHRs, where missing codes may indicate either a true absence or unshared diagnoses. The method improves medical-code denoising accuracy and yields statistically significant gains on hospital readmission prediction.
 
 </details>
 <details>
@@ -1128,12 +1080,6 @@ Foresight is a transformer-based pipeline that converts free-text EHR notes into
 ### Graph / Hypergraph
 
 <details>
-<summary><strong>GraphPL: Leveraging GNN for Efficient and Robust Modalities Imputation in Patchwork Learning</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.25352">arXiv</a></summary>
-
-The paper proposes GraphPL, which combines graph neural networks with patchwork learning to impute missing modalities across clients with heterogeneous modality availability. The method flexibly integrates all observed modalities and remains robust to noisy inputs. On a distributed EHR dataset, GraphPL yields superior modality imputation and downstream disease prediction.
-
-</details>
-<details>
 <summary><strong>HypEHR: Hyperbolic Modeling of Electronic Health Records for Efficient Question Answering</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.21027">arXiv</a></summary>
 
 The paper proposes HypEHR, a Lorentzian hyperbolic model that embeds clinical codes, visits, and questions in hyperbolic space for EHR question answering. It uses geometry-consistent cross-attention with type-specific pointer heads and pretrains with next-visit diagnosis prediction plus hierarchy-aware regularization. HypEHR matches LLM-based EHR-QA performance with far fewer parameters.
@@ -1149,18 +1095,6 @@ The paper introduces IKDP, a disease-prediction framework that constructs patien
 <summary><strong>Predicting Alzheimer's disease progression using rs-fMRI and a history-aware graph neural network</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.06469">arXiv</a></summary>
 
 The paper proposes a history-aware GNN that fuses functional connectivity graphs from rs-fMRI with an RNN block to model a subject's full visit history for Alzheimer's progression prediction. Visit distance information is injected into input features to handle irregular inter-visit gaps, and the model is robust to missing visits. The architecture targets visit-level conversion across CN, MCI, and AD stages.
-
-</details>
-<details>
-<summary><strong>Text-Attributed Knowledge Graph Enrichment with Large Language Models for Medical Concept Representation</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.13331">arXiv</a></summary>
-
-MedCo introduces an LLM-empowered graph learning framework that constructs a global text-attributed knowledge graph over medical codes by combining EHR-mined statistical associations with type-constrained LLM-inferred semantic relations. The framework jointly trains a LoRA-tuned LLaMA text encoder with a heterogeneous GNN to fuse semantics and structure into unified concept embeddings. Experiments on MIMIC-III and MIMIC-IV demonstrate consistent gains as a plug-in concept encoder for EHR prediction pipelines.
-
-</details>
-<details>
-<summary><strong>MIRAGE: Knowledge Graph-Guided Cross-Cohort MRI Synthesis for Alzheimer's Disease Prediction</strong> (2026-03, arXiv). <a href="https://arxiv.org/abs/2603.02434">arXiv</a></summary>
-
-MIRAGE reframes missing-MRI as anatomy-guided cross-modal latent distillation, using a biomedical knowledge graph and graph attention networks to embed heterogeneous EHR variables into a shared space transferable across cohorts. A frozen 3D U-Net decoder and cohort-aggregated skip feature compensation act as a structural penalty enforcing biologically plausible latents. The distilled diagnostic-surrogate representation improves AD classification by 13 percent over unimodal baselines in cohorts lacking real MRI.
 
 </details>
 <details>
@@ -1698,21 +1632,9 @@ Boosted Distributional Reinforcement Learning (BDRL) optimizes agent-specific ou
 
 </details>
 <details>
-<summary><strong>DISCO-TAB: A Hierarchical Reinforcement Learning Framework for Privacy-Preserving Synthesis of Complex Clinical Data</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.01481">arXiv</a></summary>
-
-DISCO-TAB orchestrates a fine-tuned LLM generator with a hierarchical multi-objective discriminator system trained via reinforcement learning, evaluating synthesis at token, sentence, feature, and row granularities. Automated Constraint Discovery and Inverse-Frequency Reward Shaping preserve latent medical logic and address minority-class collapse. The framework yields large gains in downstream clinical utility over GAN and diffusion baselines while resisting membership inference attacks.
-
-</details>
-<details>
 <summary><strong>Learning Preference-Based Objectives from Clinical Narratives for Sequential Treatment Decision-Making</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.10783">arXiv</a></summary>
 
 The paper introduces CN-PR, a framework that learns RL reward functions for sequential treatment from discharge summaries by deriving trajectory quality scores via an LLM and constructing pairwise trajectory preferences. A confidence signal weights supervision by narrative informativeness, and reward learning uses a structured preference-based objective. Learned policies yield improved recovery-related outcomes on ICU sepsis.
-
-</details>
-<details>
-<summary><strong>Trajectory Landscapes for Therapeutic Strategy Design in Agent-Based Tumor Microenvironment Models</strong> (2026-03, arXiv). <a href="https://arxiv.org/abs/2603.18333">arXiv</a></summary>
-
-The paper presents a simulation-driven framework that builds a low-dimensional trajectory landscape from perturbed agent-based tumor microenvironment simulations. A probabilistic Markov State Model captures metastable states and is conditioned on governing parameters to form a finite-horizon MDP for treatment scheduling. The approach enables therapeutic policy design for partially observed biological systems without longitudinal patient data.
 
 </details>
 <details>
@@ -1872,12 +1794,6 @@ The paper proposes CSRA, a controlled spectral residual data augmentation framew
 
 </details>
 <details>
-<summary><strong>Conditional anomaly detection using soft harmonic functions: An application to clinical alerting</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.21956">arXiv</a></summary>
-
-The paper develops a new non-parametric conditional anomaly detection method based on the soft harmonic solution, with regularization to avoid flagging isolated or boundary examples. It estimates label confidence to detect anomalous mislabeling, such as omitted lab tests, on EHR data. The method is shown to outperform baseline approaches for clinical alerting.
-
-</details>
-<details>
 <summary><strong>Evaluating the impact of longitudinal treatment strategies in the presence of informative monitoring and time-dependent confounding</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.09898">arXiv</a></summary>
 
 The paper adapts IPW, G-computation, and longitudinal TMLE to estimate causal effects of dynamic treatment strategies in EHR data when covariate monitoring is informative about patient health. Monitoring indicators are incorporated as additional time-dependent confounders. Simulation studies and an ICU mechanical-ventilation case study demonstrate the bias of ignoring informative monitoring.
@@ -1887,18 +1803,6 @@ The paper adapts IPW, G-computation, and longitudinal TMLE to estimate causal ef
 <summary><strong>Learning Dynamic Representations and Policies from Multimodal Clinical Time-Series with Informative Missingness</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.21235">arXiv</a></summary>
 
 The paper introduces a patient representation learning framework that explicitly leverages informative missingness in multimodal clinical time series by combining a multimodal encoder over signals and observation patterns, a Bayesian filtering module that maintains a latent patient state, and downstream policy and outcome modules. It supports both offline treatment policy learning and mortality prediction. Evaluation on sepsis cohorts from MIMIC-III, MIMIC-IV, and eICU shows large gains over baselines.
-
-</details>
-<details>
-<summary><strong>Mining Electronic Health Records to Investigate Effectiveness of Ensemble Deep Clustering</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.07085">arXiv</a></summary>
-
-The paper introduces an ensemble-based deep clustering approach that aggregates cluster assignments across multiple embedding dimensions rather than relying on a single embedding space, designed specifically for tabular EHR data. Combined with traditional clustering in an ensemble framework, the method achieves the top ranking among 14 clustering algorithms on heart-failure cohorts from All of Us. The work emphasizes sex-specific subtype discovery in EHRs.
-
-</details>
-<details>
-<summary><strong>Retrieval-aligned Tabular Foundation Models Enable Robust Clinical Risk Prediction in Electronic Health Records Under Real-world Constraints</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.01841">arXiv</a></summary>
-
-The paper introduces AWARE, a task-aligned retrieval framework for tabular foundation models that learns supervised embeddings and lightweight adapters to align retrieval with inference, alongside a multi-cohort EHR benchmark. It analyzes how data scale, feature dimensionality, outcome rarity, and cohort shift affect PFN-based tabular in-context learners. AWARE delivers up to 12.2% AUPRC gains under extreme class imbalance.
 
 </details>
 <details>
@@ -1917,12 +1821,6 @@ The paper proposes MedCertAIn, a Bayesian predictive uncertainty framework that 
 <summary><strong>From Statistical Fidelity to Clinical Consistency: Scalable Generation and Auditing of Synthetic Patient Trajectories</strong> (2026-03, arXiv). <a href="https://arxiv.org/abs/2603.06720">arXiv</a></summary>
 
 The paper presents an integrated pipeline that pairs a knowledge-grounded generative model for ~32,000 distinct clinical events with an LLM-based auditing module that filters clinical inconsistencies escaping probabilistic generation. On MIMIC-IV the auditor markedly reduces effect-size gaps between real and synthetic trajectories, and downstream models trained on audited data match or exceed real-data performance with no detectable privacy leakage.
-
-</details>
-<details>
-<summary><strong>Heterogeneous readmission prediction with hierarchical effect decomposition and regularization</strong> (2026-03, arXiv). <a href="https://arxiv.org/abs/2603.19569">arXiv</a></summary>
-
-hierNest is a hierarchical readmission prediction framework that introduces nested re-parameterization and structured regularization aligned with the primary-diagnosis taxonomy. The design enables information borrowing across related patient subgroups while preserving interpretability at multiple hierarchical levels. Simulations and a Medicare EHR cohort show accuracy gains, particularly for small subgroups with strong hierarchical effects.
 
 </details>
 <details>
@@ -1965,12 +1863,6 @@ The paper proposes an unbalanced optimal transport matcher that tracks lesion ev
 <summary><strong>Adversarial Drift-Aware Predictive Transfer: Toward Durable Clinical AI</strong> (2026-01, arXiv). <a href="https://arxiv.org/abs/2601.11860">arXiv</a></summary>
 
 The paper proposes ADAPT, an adversarial drift-aware predictive transfer framework that builds an uncertainty set of plausible future models from historical source estimators and limited current data and optimizes worst-case performance against temporal drift. Validated on longitudinal suicide-risk prediction from Mass General Brigham and Duke EHRs, ADAPT remains stable across ICD coding transitions and COVID-19 shocks with minimal retraining.
-
-</details>
-<details>
-<summary><strong>Development and Multinational Validation of Artificial Intelligence-Enabled ASCVD Risk Stratification Using Electrocardiograms</strong> (2026-01, medRxiv). <a href="https://www.medrxiv.org/content/10.64898/2026.01.05.26343465v1">medRxiv</a></summary>
-
-The paper develops ECG-ASCVD, a family of deep models that predict time-to-ASCVD from 12-lead ECG signals, ECG images, and lead-1 signals. Trained on over 360,000 individuals and validated in YNHHS, ELSA-Brasil, and the UK Biobank, the models retain prognostic value after adjusting for PREVENT and identify high-risk patients lacking conventional risk-factor data.
 
 </details>
 <details>
@@ -2183,12 +2075,6 @@ G-Net is a sequential deep learning framework that performs g-computation for co
 ### Scaling / Pretraining Analysis
 
 <details>
-<summary><strong>On the Invariance and Generality of Neural Scaling Laws</strong> (2026-05, arXiv). <a href="https://arxiv.org/abs/2605.07546">arXiv</a></summary>
-
-The paper develops an information-theoretic theory of when neural scaling laws are invariant under data transformations and how they shift predictably under information-resolution-reducing transformations. It empirically validates transport across language, vision, and speech, and applies the framework to predict scaling of language models trained on EHRs from laws fit on general text.
-
-</details>
-<details>
 <summary><strong>Multi-Hospital Electronic Health Record Foundation Models Without Data Sharing: A Comparison of Federated Learning and Inference-Time Ensembling</strong> (2026-04, PubMed). <a href="https://pubmed.ncbi.nlm.nih.gov/42094144/">PubMed</a></summary>
 
 The paper compares centralized training, federated averaging, and inference-time ensembling for training GPT-style autoregressive EHR foundation models across five non-IID hospital partitions of MIMIC-IV. Federated averaging recovers 85% and inference-time ensembling 77% of centralized AUPRC, with the ensemble outperforming solo models for an estimated 87% of participating hospitals, demonstrating a feasible path to multi-institutional EHR foundation models without data pooling.
@@ -2228,12 +2114,6 @@ FoMoH presents a comprehensive evaluation framework for structured EHR foundatio
 ### Model Benchmark
 
 <details>
-<summary><strong>AgentRx: A Benchmark Study of LLM Agents for Multimodal Clinical Prediction Tasks</strong> (2026-05, arXiv). <a href="https://arxiv.org/abs/2605.10286">arXiv</a></summary>
-
-AgentRx systematically benchmarks LLM-based single-agent and multi-agent frameworks for multimodal clinical risk prediction using temporal EHR, images, radiology reports, and notes. It quantifies unimodal vs multimodal gaps, calibration, and the surprising underperformance of naive multi-agent collaboration relative to single agents. The released evaluation framework provides a reproducible testbed for agentic clinical prediction.
-
-</details>
-<details>
 <summary><strong>CodeClinic: Evaluating Automation of Coding Skills for Clinical Reasoning Agents</strong> (2026-05, arXiv). <a href="https://arxiv.org/abs/2605.09675">arXiv</a></summary>
 
 CodeClinic is a MIMIC-IV-based benchmark that evaluates whether LLM agents can synthesize and compose reusable clinical skills for longitudinal ICU surveillance and compositional information seeking, with stratified compositional depth. It also introduces an offline autoformalization pipeline that converts natural-language clinical guidelines into verified reusable Python skill libraries through iterative LLM refinement. The benchmark targets long-horizon patient trajectory monitoring rather than static knowledge recall.
@@ -2255,12 +2135,6 @@ The paper introduces a task-aware benchmark for blood glucose forecasting with t
 <summary><strong>PhysicianBench: Evaluating LLM Agents in Real-World EHR Environments</strong> (2026-05, arXiv). <a href="https://arxiv.org/abs/2605.02240">arXiv</a></summary>
 
 PhysicianBench is an execution-grounded benchmark of 100 long-horizon physician tasks instantiated against real patient records in an EHR environment accessed via commercial-vendor-style APIs. Tasks span 21 specialties and require an average of 27 tool calls, decomposed into 670 structured checkpoints with task-specific grading scripts. The benchmark evaluates whether LLM agents can retrieve cross-encounter data, reason over heterogeneous information, and execute clinical actions on patient trajectories.
-
-</details>
-<details>
-<summary><strong>FairLogue: A Toolkit for Intersectional Fairness Analysis in Clinical Machine Learning Models</strong> (2026-04, arXiv). <a href="https://arxiv.org/abs/2604.04858">arXiv</a></summary>
-
-FairLogue is a toolkit that operationalizes intersectional fairness for clinical ML by extending demographic parity, equalized odds, and equal opportunity to intersectional subgroups and adding counterfactual frameworks for treatment-based and intersectional-membership interventions. It is evaluated on a glaucoma surgery prediction task using All of Us EHR data. The work highlights how single-axis fairness analyses can underestimate compounded disparities.
 
 </details>
 <details>
